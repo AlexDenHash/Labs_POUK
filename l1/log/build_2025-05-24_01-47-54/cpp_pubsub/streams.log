@@ -1,0 +1,28 @@
+[0.016s] Invoking command in '/home/gentleshaz/ros2_ws/l1/build/cpp_pubsub': CMAKE_PREFIX_PATH=/home/gentleshaz/ros2_ws/l1/install/cpp_pubsub:/opt/ros/foxy:/opt/ros/noetic /usr/bin/cmake --build /home/gentleshaz/ros2_ws/l1/build/cpp_pubsub -- -j4 -l4
+[0.065s] [35m[1mScanning dependencies of target talker[0m
+[0.084s] [ 50%] Built target listener
+[0.099s] [ 75%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[4.888s] [100%] [32m[1mLinking CXX executable talker[0m
+[5.179s] [100%] Built target talker
+[5.192s] Invoked command in '/home/gentleshaz/ros2_ws/l1/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/home/gentleshaz/ros2_ws/l1/install/cpp_pubsub:/opt/ros/foxy:/opt/ros/noetic /usr/bin/cmake --build /home/gentleshaz/ros2_ws/l1/build/cpp_pubsub -- -j4 -l4
+[5.207s] Invoking command in '/home/gentleshaz/ros2_ws/l1/build/cpp_pubsub': CMAKE_PREFIX_PATH=/home/gentleshaz/ros2_ws/l1/install/cpp_pubsub:/opt/ros/foxy:/opt/ros/noetic /usr/bin/cmake --install /home/gentleshaz/ros2_ws/l1/build/cpp_pubsub
+[5.216s] -- Install configuration: ""
+[5.217s] -- Installing: /home/gentleshaz/ros2_ws/l1/install/cpp_pubsub/lib/cpp_pubsub/talker
+[5.220s] -- Set runtime path of "/home/gentleshaz/ros2_ws/l1/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""
+[5.220s] -- Up-to-date: /home/gentleshaz/ros2_ws/l1/install/cpp_pubsub/lib/cpp_pubsub/listener
+[5.220s] -- Up-to-date: /home/gentleshaz/ros2_ws/l1/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[5.221s] -- Up-to-date: /home/gentleshaz/ros2_ws/l1/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[5.221s] -- Up-to-date: /home/gentleshaz/ros2_ws/l1/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[5.221s] -- Up-to-date: /home/gentleshaz/ros2_ws/l1/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[5.221s] -- Up-to-date: /home/gentleshaz/ros2_ws/l1/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[5.221s] -- Up-to-date: /home/gentleshaz/ros2_ws/l1/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[5.221s] -- Up-to-date: /home/gentleshaz/ros2_ws/l1/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[5.221s] -- Up-to-date: /home/gentleshaz/ros2_ws/l1/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[5.222s] -- Up-to-date: /home/gentleshaz/ros2_ws/l1/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[5.222s] -- Up-to-date: /home/gentleshaz/ros2_ws/l1/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[5.222s] -- Installing: /home/gentleshaz/ros2_ws/l1/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[5.222s] -- Up-to-date: /home/gentleshaz/ros2_ws/l1/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[5.222s] -- Up-to-date: /home/gentleshaz/ros2_ws/l1/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[5.222s] -- Up-to-date: /home/gentleshaz/ros2_ws/l1/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[5.222s] -- Up-to-date: /home/gentleshaz/ros2_ws/l1/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[5.224s] Invoked command in '/home/gentleshaz/ros2_ws/l1/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/home/gentleshaz/ros2_ws/l1/install/cpp_pubsub:/opt/ros/foxy:/opt/ros/noetic /usr/bin/cmake --install /home/gentleshaz/ros2_ws/l1/build/cpp_pubsub

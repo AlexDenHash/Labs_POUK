@@ -1,0 +1,10 @@
+/home/gentleshaz/ros2_ws/l2/build/lab_2/CMakeFiles/install/strip.dir
+/home/gentleshaz/ros2_ws/l2/build/lab_2/CMakeFiles/install/local.dir
+/home/gentleshaz/ros2_ws/l2/build/lab_2/CMakeFiles/install.dir
+/home/gentleshaz/ros2_ws/l2/build/lab_2/CMakeFiles/list_install_components.dir
+/home/gentleshaz/ros2_ws/l2/build/lab_2/CMakeFiles/rebuild_cache.dir
+/home/gentleshaz/ros2_ws/l2/build/lab_2/CMakeFiles/edit_cache.dir
+/home/gentleshaz/ros2_ws/l2/build/lab_2/CMakeFiles/test.dir
+/home/gentleshaz/ros2_ws/l2/build/lab_2/CMakeFiles/robot_control.dir
+/home/gentleshaz/ros2_ws/l2/build/lab_2/CMakeFiles/lab_2_uninstall.dir
+/home/gentleshaz/ros2_ws/l2/build/lab_2/CMakeFiles/uninstall.dir

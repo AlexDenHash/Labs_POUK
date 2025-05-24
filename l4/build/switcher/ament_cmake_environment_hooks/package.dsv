@@ -1,0 +1,4 @@
+source;share/switcher/local_setup.bash
+source;share/switcher/local_setup.dsv
+source;share/switcher/local_setup.sh
+source;share/switcher/local_setup.zsh

@@ -1,0 +1,7 @@
+[01m[K/home/gentleshaz/ros2_ws/l5/src/simple_map/src/scan_to_map.cpp:[m[K In function ‘[01m[Kvoid scan_to_map(const LaserScan&, nav_msgs::msg::OccupancyGrid&, const tf2::Transform&)[m[K’:
+[01m[K/home/gentleshaz/ros2_ws/l5/src/simple_map/src/scan_to_map.cpp:19:25:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   19 |             std::size_t [01;35m[Kx[m[K = v.x() / map.info.resolution;
+      |                         [01;35m[K^[m[K
+[01m[K/home/gentleshaz/ros2_ws/l5/src/simple_map/src/scan_to_map.cpp:20:25:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ky[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   20 |             std::size_t [01;35m[Ky[m[K = v.y() / map.info.resolution;
+      |                         [01;35m[K^[m[K

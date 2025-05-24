@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+cff1b135a478f0d6049c61dce15b407a CMakeFiles/switcher_uninstall

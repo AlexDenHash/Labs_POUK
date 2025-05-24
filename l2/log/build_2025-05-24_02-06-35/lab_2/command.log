@@ -1,0 +1,6 @@
+Invoking command in '/home/gentleshaz/ros2_ws/l2/build/lab_2': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/gentleshaz/ros2_ws/l2/src/lab_2 -DCMAKE_INSTALL_PREFIX=/home/gentleshaz/ros2_ws/l2/install/lab_2
+Invoked command in '/home/gentleshaz/ros2_ws/l2/build/lab_2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/gentleshaz/ros2_ws/l2/src/lab_2 -DCMAKE_INSTALL_PREFIX=/home/gentleshaz/ros2_ws/l2/install/lab_2
+Invoking command in '/home/gentleshaz/ros2_ws/l2/build/lab_2': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/gentleshaz/ros2_ws/l2/build/lab_2 -- -j4 -l4
+Invoked command in '/home/gentleshaz/ros2_ws/l2/build/lab_2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/gentleshaz/ros2_ws/l2/build/lab_2 -- -j4 -l4
+Invoking command in '/home/gentleshaz/ros2_ws/l2/build/lab_2': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/gentleshaz/ros2_ws/l2/build/lab_2
+Invoked command in '/home/gentleshaz/ros2_ws/l2/build/lab_2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/gentleshaz/ros2_ws/l2/build/lab_2

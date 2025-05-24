@@ -1,0 +1,238 @@
+[0.230s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.230s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fdec046aa60>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fdec046aa60>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fdec03b4be0>)
+[0.414s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.414s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.414s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.414s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.414s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.415s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.415s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/gentleshaz/ros2_ws/l4'
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_selector) by extensions ['ignore', 'ignore_ament_install']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_selector) by extension 'ignore'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_selector) by extension 'ignore_ament_install'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_selector) by extensions ['colcon_pkg']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_selector) by extension 'colcon_pkg'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_selector) by extensions ['colcon_meta']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_selector) by extension 'colcon_meta'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_selector) by extensions ['ros']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_selector) by extension 'ros'
+[0.433s] DEBUG:colcon.colcon_core.package_identification:Package 'src/control_selector' with type 'ros.ament_cmake' and name 'control_selector'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/switcher) by extensions ['ignore', 'ignore_ament_install']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/switcher) by extension 'ignore'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/switcher) by extension 'ignore_ament_install'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/switcher) by extensions ['colcon_pkg']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/switcher) by extension 'colcon_pkg'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/switcher) by extensions ['colcon_meta']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/switcher) by extension 'colcon_meta'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/switcher) by extensions ['ros']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/switcher) by extension 'ros'
+[0.434s] DEBUG:colcon.colcon_core.package_identification:Package 'src/switcher' with type 'ros.ament_cmake' and name 'switcher'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/worlds) by extensions ['ignore', 'ignore_ament_install']
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/worlds) by extension 'ignore'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/worlds) by extension 'ignore_ament_install'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/worlds) by extensions ['colcon_pkg']
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/worlds) by extension 'colcon_pkg'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/worlds) by extensions ['colcon_meta']
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/worlds) by extension 'colcon_meta'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/worlds) by extensions ['ros']
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/worlds) by extension 'ros'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/worlds) by extensions ['cmake', 'python']
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/worlds) by extension 'cmake'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/worlds) by extension 'python'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/worlds) by extensions ['python_setup_py']
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/worlds) by extension 'python_setup_py'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/worlds/bitmaps) by extensions ['ignore', 'ignore_ament_install']
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/worlds/bitmaps) by extension 'ignore'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/worlds/bitmaps) by extension 'ignore_ament_install'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/worlds/bitmaps) by extensions ['colcon_pkg']
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/worlds/bitmaps) by extension 'colcon_pkg'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/worlds/bitmaps) by extensions ['colcon_meta']
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/worlds/bitmaps) by extension 'colcon_meta'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/worlds/bitmaps) by extensions ['ros']
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/worlds/bitmaps) by extension 'ros'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/worlds/bitmaps) by extensions ['cmake', 'python']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/worlds/bitmaps) by extension 'cmake'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/worlds/bitmaps) by extension 'python'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/worlds/bitmaps) by extensions ['python_setup_py']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/worlds/bitmaps) by extension 'python_setup_py'
+[0.436s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.436s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.436s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.436s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.436s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.453s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.453s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.455s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 171 installed packages in /opt/ros/foxy
+[0.458s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.515s] Level 5:colcon.colcon_core.verb:set package 'control_selector' build argument 'cmake_args' from command line to 'None'
+[0.515s] Level 5:colcon.colcon_core.verb:set package 'control_selector' build argument 'cmake_target' from command line to 'None'
+[0.515s] Level 5:colcon.colcon_core.verb:set package 'control_selector' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.515s] Level 5:colcon.colcon_core.verb:set package 'control_selector' build argument 'cmake_clean_cache' from command line to 'False'
+[0.515s] Level 5:colcon.colcon_core.verb:set package 'control_selector' build argument 'cmake_clean_first' from command line to 'False'
+[0.515s] Level 5:colcon.colcon_core.verb:set package 'control_selector' build argument 'cmake_force_configure' from command line to 'False'
+[0.515s] Level 5:colcon.colcon_core.verb:set package 'control_selector' build argument 'ament_cmake_args' from command line to 'None'
+[0.515s] Level 5:colcon.colcon_core.verb:set package 'control_selector' build argument 'catkin_cmake_args' from command line to 'None'
+[0.515s] Level 5:colcon.colcon_core.verb:set package 'control_selector' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.515s] DEBUG:colcon.colcon_core.verb:Building package 'control_selector' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gentleshaz/ros2_ws/l4/build/control_selector', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gentleshaz/ros2_ws/l4/install/control_selector', 'merge_install': False, 'path': '/home/gentleshaz/ros2_ws/l4/src/control_selector', 'symlink_install': False, 'test_result_base': None}
+[0.516s] Level 5:colcon.colcon_core.verb:set package 'switcher' build argument 'cmake_args' from command line to 'None'
+[0.516s] Level 5:colcon.colcon_core.verb:set package 'switcher' build argument 'cmake_target' from command line to 'None'
+[0.516s] Level 5:colcon.colcon_core.verb:set package 'switcher' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.516s] Level 5:colcon.colcon_core.verb:set package 'switcher' build argument 'cmake_clean_cache' from command line to 'False'
+[0.516s] Level 5:colcon.colcon_core.verb:set package 'switcher' build argument 'cmake_clean_first' from command line to 'False'
+[0.516s] Level 5:colcon.colcon_core.verb:set package 'switcher' build argument 'cmake_force_configure' from command line to 'False'
+[0.516s] Level 5:colcon.colcon_core.verb:set package 'switcher' build argument 'ament_cmake_args' from command line to 'None'
+[0.516s] Level 5:colcon.colcon_core.verb:set package 'switcher' build argument 'catkin_cmake_args' from command line to 'None'
+[0.516s] Level 5:colcon.colcon_core.verb:set package 'switcher' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.516s] DEBUG:colcon.colcon_core.verb:Building package 'switcher' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gentleshaz/ros2_ws/l4/build/switcher', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gentleshaz/ros2_ws/l4/install/switcher', 'merge_install': False, 'path': '/home/gentleshaz/ros2_ws/l4/src/switcher', 'symlink_install': False, 'test_result_base': None}
+[0.516s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.517s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.517s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/gentleshaz/ros2_ws/l4/src/control_selector' with build type 'ament_cmake'
+[0.517s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/gentleshaz/ros2_ws/l4/src/control_selector'
+[0.520s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.520s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.520s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.521s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/noetic'
+[0.525s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/gentleshaz/ros2_ws/l4/src/switcher' with build type 'ament_cmake'
+[0.525s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/gentleshaz/ros2_ws/l4/src/switcher'
+[0.525s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.525s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.528s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/noetic'
+[0.539s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gentleshaz/ros2_ws/l4/build/control_selector': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/gentleshaz/ros2_ws/l4/src/control_selector -DCMAKE_INSTALL_PREFIX=/home/gentleshaz/ros2_ws/l4/install/control_selector
+[0.545s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gentleshaz/ros2_ws/l4/build/switcher': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/gentleshaz/ros2_ws/l4/src/switcher -DCMAKE_INSTALL_PREFIX=/home/gentleshaz/ros2_ws/l4/install/switcher
+[2.235s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gentleshaz/ros2_ws/l4/build/switcher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/gentleshaz/ros2_ws/l4/src/switcher -DCMAKE_INSTALL_PREFIX=/home/gentleshaz/ros2_ws/l4/install/switcher
+[2.239s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gentleshaz/ros2_ws/l4/build/switcher': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/gentleshaz/ros2_ws/l4/build/switcher -- -j4 -l4
+[2.467s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gentleshaz/ros2_ws/l4/build/control_selector' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/gentleshaz/ros2_ws/l4/src/control_selector -DCMAKE_INSTALL_PREFIX=/home/gentleshaz/ros2_ws/l4/install/control_selector
+[2.470s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gentleshaz/ros2_ws/l4/build/control_selector': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/gentleshaz/ros2_ws/l4/build/control_selector -- -j4 -l4
+[5.464s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gentleshaz/ros2_ws/l4/build/switcher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/gentleshaz/ros2_ws/l4/build/switcher -- -j4 -l4
+[5.479s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gentleshaz/ros2_ws/l4/build/switcher': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/gentleshaz/ros2_ws/l4/build/switcher
+[5.494s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(switcher)
+[5.495s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gentleshaz/ros2_ws/l4/build/switcher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/gentleshaz/ros2_ws/l4/build/switcher
+[5.497s] Level 1:colcon.colcon_core.environment:checking '/home/gentleshaz/ros2_ws/l4/install/switcher' for CMake module files
+[5.498s] Level 1:colcon.colcon_core.environment:checking '/home/gentleshaz/ros2_ws/l4/install/switcher' for CMake config files
+[5.498s] Level 1:colcon.colcon_core.shell:create_environment_hook('switcher', 'cmake_prefix_path')
+[5.498s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gentleshaz/ros2_ws/l4/install/switcher/share/switcher/hook/cmake_prefix_path.ps1'
+[5.499s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gentleshaz/ros2_ws/l4/install/switcher/share/switcher/hook/cmake_prefix_path.dsv'
+[5.499s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gentleshaz/ros2_ws/l4/install/switcher/share/switcher/hook/cmake_prefix_path.sh'
+[5.500s] Level 1:colcon.colcon_core.environment:checking '/home/gentleshaz/ros2_ws/l4/install/switcher/lib'
+[5.501s] Level 1:colcon.colcon_core.environment:checking '/home/gentleshaz/ros2_ws/l4/install/switcher/bin'
+[5.501s] Level 1:colcon.colcon_core.environment:checking '/home/gentleshaz/ros2_ws/l4/install/switcher/lib/pkgconfig/switcher.pc'
+[5.501s] Level 1:colcon.colcon_core.environment:checking '/home/gentleshaz/ros2_ws/l4/install/switcher/lib/python3.8/site-packages'
+[5.501s] Level 1:colcon.colcon_core.environment:checking '/home/gentleshaz/ros2_ws/l4/install/switcher/bin'
+[5.502s] INFO:colcon.colcon_core.shell:Creating package script '/home/gentleshaz/ros2_ws/l4/install/switcher/share/switcher/package.ps1'
+[5.503s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gentleshaz/ros2_ws/l4/install/switcher/share/switcher/package.dsv'
+[5.504s] INFO:colcon.colcon_core.shell:Creating package script '/home/gentleshaz/ros2_ws/l4/install/switcher/share/switcher/package.sh'
+[5.504s] INFO:colcon.colcon_core.shell:Creating package script '/home/gentleshaz/ros2_ws/l4/install/switcher/share/switcher/package.bash'
+[5.505s] INFO:colcon.colcon_core.shell:Creating package script '/home/gentleshaz/ros2_ws/l4/install/switcher/share/switcher/package.zsh'
+[5.506s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gentleshaz/ros2_ws/l4/install/switcher/share/colcon-core/packages/switcher)
+[5.507s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(switcher)
+[5.507s] Level 1:colcon.colcon_core.environment:checking '/home/gentleshaz/ros2_ws/l4/install/switcher' for CMake module files
+[5.508s] Level 1:colcon.colcon_core.environment:checking '/home/gentleshaz/ros2_ws/l4/install/switcher' for CMake config files
+[5.508s] Level 1:colcon.colcon_core.shell:create_environment_hook('switcher', 'cmake_prefix_path')
+[5.508s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gentleshaz/ros2_ws/l4/install/switcher/share/switcher/hook/cmake_prefix_path.ps1'
+[5.508s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gentleshaz/ros2_ws/l4/install/switcher/share/switcher/hook/cmake_prefix_path.dsv'
+[5.509s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gentleshaz/ros2_ws/l4/install/switcher/share/switcher/hook/cmake_prefix_path.sh'
+[5.509s] Level 1:colcon.colcon_core.environment:checking '/home/gentleshaz/ros2_ws/l4/install/switcher/lib'
+[5.509s] Level 1:colcon.colcon_core.environment:checking '/home/gentleshaz/ros2_ws/l4/install/switcher/bin'
+[5.509s] Level 1:colcon.colcon_core.environment:checking '/home/gentleshaz/ros2_ws/l4/install/switcher/lib/pkgconfig/switcher.pc'
+[5.510s] Level 1:colcon.colcon_core.environment:checking '/home/gentleshaz/ros2_ws/l4/install/switcher/lib/python3.8/site-packages'
+[5.510s] Level 1:colcon.colcon_core.environment:checking '/home/gentleshaz/ros2_ws/l4/install/switcher/bin'
+[5.510s] INFO:colcon.colcon_core.shell:Creating package script '/home/gentleshaz/ros2_ws/l4/install/switcher/share/switcher/package.ps1'
+[5.511s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gentleshaz/ros2_ws/l4/install/switcher/share/switcher/package.dsv'
+[5.511s] INFO:colcon.colcon_core.shell:Creating package script '/home/gentleshaz/ros2_ws/l4/install/switcher/share/switcher/package.sh'
+[5.512s] INFO:colcon.colcon_core.shell:Creating package script '/home/gentleshaz/ros2_ws/l4/install/switcher/share/switcher/package.bash'
+[5.512s] INFO:colcon.colcon_core.shell:Creating package script '/home/gentleshaz/ros2_ws/l4/install/switcher/share/switcher/package.zsh'
+[5.513s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gentleshaz/ros2_ws/l4/install/switcher/share/colcon-core/packages/switcher)
+[10.714s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gentleshaz/ros2_ws/l4/build/control_selector' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/gentleshaz/ros2_ws/l4/build/control_selector -- -j4 -l4
+[10.717s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gentleshaz/ros2_ws/l4/build/control_selector': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/gentleshaz/ros2_ws/l4/build/control_selector
+[10.734s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(control_selector)
+[10.735s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gentleshaz/ros2_ws/l4/build/control_selector' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/gentleshaz/ros2_ws/l4/build/control_selector
+[10.735s] Level 1:colcon.colcon_core.environment:checking '/home/gentleshaz/ros2_ws/l4/install/control_selector' for CMake module files
+[10.736s] Level 1:colcon.colcon_core.environment:checking '/home/gentleshaz/ros2_ws/l4/install/control_selector' for CMake config files
+[10.736s] Level 1:colcon.colcon_core.shell:create_environment_hook('control_selector', 'cmake_prefix_path')
+[10.736s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gentleshaz/ros2_ws/l4/install/control_selector/share/control_selector/hook/cmake_prefix_path.ps1'
+[10.737s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gentleshaz/ros2_ws/l4/install/control_selector/share/control_selector/hook/cmake_prefix_path.dsv'
+[10.737s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gentleshaz/ros2_ws/l4/install/control_selector/share/control_selector/hook/cmake_prefix_path.sh'
+[10.738s] Level 1:colcon.colcon_core.environment:checking '/home/gentleshaz/ros2_ws/l4/install/control_selector/lib'
+[10.738s] Level 1:colcon.colcon_core.environment:checking '/home/gentleshaz/ros2_ws/l4/install/control_selector/bin'
+[10.738s] Level 1:colcon.colcon_core.environment:checking '/home/gentleshaz/ros2_ws/l4/install/control_selector/lib/pkgconfig/control_selector.pc'
+[10.738s] Level 1:colcon.colcon_core.environment:checking '/home/gentleshaz/ros2_ws/l4/install/control_selector/lib/python3.8/site-packages'
+[10.739s] Level 1:colcon.colcon_core.environment:checking '/home/gentleshaz/ros2_ws/l4/install/control_selector/bin'
+[10.739s] INFO:colcon.colcon_core.shell:Creating package script '/home/gentleshaz/ros2_ws/l4/install/control_selector/share/control_selector/package.ps1'
+[10.739s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gentleshaz/ros2_ws/l4/install/control_selector/share/control_selector/package.dsv'
+[10.740s] INFO:colcon.colcon_core.shell:Creating package script '/home/gentleshaz/ros2_ws/l4/install/control_selector/share/control_selector/package.sh'
+[10.740s] INFO:colcon.colcon_core.shell:Creating package script '/home/gentleshaz/ros2_ws/l4/install/control_selector/share/control_selector/package.bash'
+[10.741s] INFO:colcon.colcon_core.shell:Creating package script '/home/gentleshaz/ros2_ws/l4/install/control_selector/share/control_selector/package.zsh'
+[10.741s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gentleshaz/ros2_ws/l4/install/control_selector/share/colcon-core/packages/control_selector)
+[10.742s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(control_selector)
+[10.742s] Level 1:colcon.colcon_core.environment:checking '/home/gentleshaz/ros2_ws/l4/install/control_selector' for CMake module files
+[10.742s] Level 1:colcon.colcon_core.environment:checking '/home/gentleshaz/ros2_ws/l4/install/control_selector' for CMake config files
+[10.743s] Level 1:colcon.colcon_core.shell:create_environment_hook('control_selector', 'cmake_prefix_path')
+[10.743s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gentleshaz/ros2_ws/l4/install/control_selector/share/control_selector/hook/cmake_prefix_path.ps1'
+[10.743s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gentleshaz/ros2_ws/l4/install/control_selector/share/control_selector/hook/cmake_prefix_path.dsv'
+[10.744s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gentleshaz/ros2_ws/l4/install/control_selector/share/control_selector/hook/cmake_prefix_path.sh'
+[10.744s] Level 1:colcon.colcon_core.environment:checking '/home/gentleshaz/ros2_ws/l4/install/control_selector/lib'
+[10.744s] Level 1:colcon.colcon_core.environment:checking '/home/gentleshaz/ros2_ws/l4/install/control_selector/bin'
+[10.744s] Level 1:colcon.colcon_core.environment:checking '/home/gentleshaz/ros2_ws/l4/install/control_selector/lib/pkgconfig/control_selector.pc'
+[10.745s] Level 1:colcon.colcon_core.environment:checking '/home/gentleshaz/ros2_ws/l4/install/control_selector/lib/python3.8/site-packages'
+[10.745s] Level 1:colcon.colcon_core.environment:checking '/home/gentleshaz/ros2_ws/l4/install/control_selector/bin'
+[10.745s] INFO:colcon.colcon_core.shell:Creating package script '/home/gentleshaz/ros2_ws/l4/install/control_selector/share/control_selector/package.ps1'
+[10.746s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gentleshaz/ros2_ws/l4/install/control_selector/share/control_selector/package.dsv'
+[10.746s] INFO:colcon.colcon_core.shell:Creating package script '/home/gentleshaz/ros2_ws/l4/install/control_selector/share/control_selector/package.sh'
+[10.747s] INFO:colcon.colcon_core.shell:Creating package script '/home/gentleshaz/ros2_ws/l4/install/control_selector/share/control_selector/package.bash'
+[10.747s] INFO:colcon.colcon_core.shell:Creating package script '/home/gentleshaz/ros2_ws/l4/install/control_selector/share/control_selector/package.zsh'
+[10.747s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gentleshaz/ros2_ws/l4/install/control_selector/share/colcon-core/packages/control_selector)
+[10.748s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[10.748s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[10.748s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[10.748s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[10.756s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[10.756s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[10.756s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[10.771s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[10.772s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gentleshaz/ros2_ws/l4/install/local_setup.ps1'
+[10.773s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/gentleshaz/ros2_ws/l4/install/_local_setup_util_ps1.py'
+[10.776s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gentleshaz/ros2_ws/l4/install/setup.ps1'
+[10.777s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gentleshaz/ros2_ws/l4/install/local_setup.sh'
+[10.778s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/gentleshaz/ros2_ws/l4/install/_local_setup_util_sh.py'
+[10.778s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gentleshaz/ros2_ws/l4/install/setup.sh'
+[10.780s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gentleshaz/ros2_ws/l4/install/local_setup.bash'
+[10.780s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gentleshaz/ros2_ws/l4/install/setup.bash'
+[10.781s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gentleshaz/ros2_ws/l4/install/local_setup.zsh'
+[10.782s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gentleshaz/ros2_ws/l4/install/setup.zsh'

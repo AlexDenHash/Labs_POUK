@@ -1,0 +1,6 @@
+Invoking command in '/home/gentleshaz/ros2_ws/l5/build/simple_map': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/gentleshaz/ros2_ws/l5/src/simple_map -DCMAKE_INSTALL_PREFIX=/home/gentleshaz/ros2_ws/l5/install/simple_map
+Invoked command in '/home/gentleshaz/ros2_ws/l5/build/simple_map' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/gentleshaz/ros2_ws/l5/src/simple_map -DCMAKE_INSTALL_PREFIX=/home/gentleshaz/ros2_ws/l5/install/simple_map
+Invoking command in '/home/gentleshaz/ros2_ws/l5/build/simple_map': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/gentleshaz/ros2_ws/l5/build/simple_map -- -j4 -l4
+Invoked command in '/home/gentleshaz/ros2_ws/l5/build/simple_map' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/gentleshaz/ros2_ws/l5/build/simple_map -- -j4 -l4
+Invoking command in '/home/gentleshaz/ros2_ws/l5/build/simple_map': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/gentleshaz/ros2_ws/l5/build/simple_map
+Invoked command in '/home/gentleshaz/ros2_ws/l5/build/simple_map' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/gentleshaz/ros2_ws/l5/build/simple_map

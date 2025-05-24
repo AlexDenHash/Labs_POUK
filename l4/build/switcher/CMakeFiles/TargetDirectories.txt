@@ -1,0 +1,10 @@
+/home/gentleshaz/ros2_ws/l4/build/switcher/CMakeFiles/install/strip.dir
+/home/gentleshaz/ros2_ws/l4/build/switcher/CMakeFiles/install/local.dir
+/home/gentleshaz/ros2_ws/l4/build/switcher/CMakeFiles/install.dir
+/home/gentleshaz/ros2_ws/l4/build/switcher/CMakeFiles/list_install_components.dir
+/home/gentleshaz/ros2_ws/l4/build/switcher/CMakeFiles/rebuild_cache.dir
+/home/gentleshaz/ros2_ws/l4/build/switcher/CMakeFiles/edit_cache.dir
+/home/gentleshaz/ros2_ws/l4/build/switcher/CMakeFiles/test.dir
+/home/gentleshaz/ros2_ws/l4/build/switcher/CMakeFiles/switcher_node.dir
+/home/gentleshaz/ros2_ws/l4/build/switcher/CMakeFiles/switcher_uninstall.dir
+/home/gentleshaz/ros2_ws/l4/build/switcher/CMakeFiles/uninstall.dir

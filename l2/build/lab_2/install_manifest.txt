@@ -1,0 +1,16 @@
+/home/gentleshaz/ros2_ws/l2/install/lab_2/lib/lab_2/robot_control
+/home/gentleshaz/ros2_ws/l2/install/lab_2/share/ament_index/resource_index/package_run_dependencies/lab_2
+/home/gentleshaz/ros2_ws/l2/install/lab_2/share/ament_index/resource_index/parent_prefix_path/lab_2
+/home/gentleshaz/ros2_ws/l2/install/lab_2/share/lab_2/environment/ament_prefix_path.sh
+/home/gentleshaz/ros2_ws/l2/install/lab_2/share/lab_2/environment/ament_prefix_path.dsv
+/home/gentleshaz/ros2_ws/l2/install/lab_2/share/lab_2/environment/path.sh
+/home/gentleshaz/ros2_ws/l2/install/lab_2/share/lab_2/environment/path.dsv
+/home/gentleshaz/ros2_ws/l2/install/lab_2/share/lab_2/local_setup.bash
+/home/gentleshaz/ros2_ws/l2/install/lab_2/share/lab_2/local_setup.sh
+/home/gentleshaz/ros2_ws/l2/install/lab_2/share/lab_2/local_setup.zsh
+/home/gentleshaz/ros2_ws/l2/install/lab_2/share/lab_2/local_setup.dsv
+/home/gentleshaz/ros2_ws/l2/install/lab_2/share/lab_2/package.dsv
+/home/gentleshaz/ros2_ws/l2/install/lab_2/share/ament_index/resource_index/packages/lab_2
+/home/gentleshaz/ros2_ws/l2/install/lab_2/share/lab_2/cmake/lab_2Config.cmake
+/home/gentleshaz/ros2_ws/l2/install/lab_2/share/lab_2/cmake/lab_2Config-version.cmake
+/home/gentleshaz/ros2_ws/l2/install/lab_2/share/lab_2/package.xml

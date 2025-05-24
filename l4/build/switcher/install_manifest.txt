@@ -1,0 +1,16 @@
+/home/gentleshaz/ros2_ws/l4/install/switcher/lib/switcher/switcher_node
+/home/gentleshaz/ros2_ws/l4/install/switcher/share/ament_index/resource_index/package_run_dependencies/switcher
+/home/gentleshaz/ros2_ws/l4/install/switcher/share/ament_index/resource_index/parent_prefix_path/switcher
+/home/gentleshaz/ros2_ws/l4/install/switcher/share/switcher/environment/ament_prefix_path.sh
+/home/gentleshaz/ros2_ws/l4/install/switcher/share/switcher/environment/ament_prefix_path.dsv
+/home/gentleshaz/ros2_ws/l4/install/switcher/share/switcher/environment/path.sh
+/home/gentleshaz/ros2_ws/l4/install/switcher/share/switcher/environment/path.dsv
+/home/gentleshaz/ros2_ws/l4/install/switcher/share/switcher/local_setup.bash
+/home/gentleshaz/ros2_ws/l4/install/switcher/share/switcher/local_setup.sh
+/home/gentleshaz/ros2_ws/l4/install/switcher/share/switcher/local_setup.zsh
+/home/gentleshaz/ros2_ws/l4/install/switcher/share/switcher/local_setup.dsv
+/home/gentleshaz/ros2_ws/l4/install/switcher/share/switcher/package.dsv
+/home/gentleshaz/ros2_ws/l4/install/switcher/share/ament_index/resource_index/packages/switcher
+/home/gentleshaz/ros2_ws/l4/install/switcher/share/switcher/cmake/switcherConfig.cmake
+/home/gentleshaz/ros2_ws/l4/install/switcher/share/switcher/cmake/switcherConfig-version.cmake
+/home/gentleshaz/ros2_ws/l4/install/switcher/share/switcher/package.xml

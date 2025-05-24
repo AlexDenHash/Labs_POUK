@@ -1,0 +1,86 @@
+[0.000000] (-) TimerEvent: {}
+[0.000616] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict()}
+[0.000656] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.011033] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.012931] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'build'}
+[0.012991] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/gentleshaz/ros2_ws/l1/build/cpp_pubsub', '--', '-j4', '-l4'], 'cwd': '/home/gentleshaz/ros2_ws/l1/build/cpp_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'gentleshaz'), ('SSH_AGENT_PID', '1351'), ('ROS_PACKAGE_PATH', '/opt/ros/noetic/share'), ('XDG_SESSION_TYPE', 'x11'), ('ROS_ETC_DIR', '/opt/ros/noetic/etc/ros'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/opt/ros/noetic/lib'), ('HOME', '/home/gentleshaz'), ('OLDPWD', '/home/gentleshaz'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1064'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/gentleshaz/ros2_ws/l1/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'gentleshaz'), ('JOURNAL_STREAM', '8:30310'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/noetic/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gentleshaz'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/opt/ros/noetic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/gentleshaz-VirtualBox:@/tmp/.ICE-unix/1405,unix/gentleshaz-VirtualBox:/tmp/.ICE-unix/1405'), ('INVOCATION_ID', 'e4309b66cb4943a195e3db939ef67df8'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/93fb5271_02e6_49a7_871e_e09fdaea4f4b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'ru_RU.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.173'), ('ROS_ROOT', '/opt/ros/noetic/share/ros'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/gentleshaz/ros2_ws/l1/install/cpp_pubsub:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gentleshaz/ros2_ws/l1/build/cpp_pubsub'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages:/opt/ros/noetic/lib/python3/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/gentleshaz/ros2_ws/l1/install/cpp_pubsub:/opt/ros/foxy:/opt/ros/noetic')]), 'shell': False}
+[0.065373] (cpp_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target talker\x1b[0m\n'}
+[0.084400] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] Built target listener\n'}
+[0.099221] (cpp_pubsub) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o\x1b[0m\n'}
+[0.099668] (-) TimerEvent: {}
+[0.202818] (-) TimerEvent: {}
+[0.305241] (-) TimerEvent: {}
+[0.407344] (-) TimerEvent: {}
+[0.508640] (-) TimerEvent: {}
+[0.610259] (-) TimerEvent: {}
+[0.732227] (-) TimerEvent: {}
+[0.845469] (-) TimerEvent: {}
+[0.947560] (-) TimerEvent: {}
+[1.060386] (-) TimerEvent: {}
+[1.175475] (-) TimerEvent: {}
+[1.277754] (-) TimerEvent: {}
+[1.380442] (-) TimerEvent: {}
+[1.482850] (-) TimerEvent: {}
+[1.583546] (-) TimerEvent: {}
+[1.683985] (-) TimerEvent: {}
+[1.785520] (-) TimerEvent: {}
+[1.887194] (-) TimerEvent: {}
+[1.987538] (-) TimerEvent: {}
+[2.088049] (-) TimerEvent: {}
+[2.188401] (-) TimerEvent: {}
+[2.289243] (-) TimerEvent: {}
+[2.389734] (-) TimerEvent: {}
+[2.491390] (-) TimerEvent: {}
+[2.598918] (-) TimerEvent: {}
+[2.706533] (-) TimerEvent: {}
+[2.807736] (-) TimerEvent: {}
+[2.908521] (-) TimerEvent: {}
+[3.012194] (-) TimerEvent: {}
+[3.112570] (-) TimerEvent: {}
+[3.213182] (-) TimerEvent: {}
+[3.318012] (-) TimerEvent: {}
+[3.418933] (-) TimerEvent: {}
+[3.519232] (-) TimerEvent: {}
+[3.619955] (-) TimerEvent: {}
+[3.720836] (-) TimerEvent: {}
+[3.821338] (-) TimerEvent: {}
+[3.926451] (-) TimerEvent: {}
+[4.034735] (-) TimerEvent: {}
+[4.135619] (-) TimerEvent: {}
+[4.236525] (-) TimerEvent: {}
+[4.337214] (-) TimerEvent: {}
+[4.437711] (-) TimerEvent: {}
+[4.538631] (-) TimerEvent: {}
+[4.648416] (-) TimerEvent: {}
+[4.749883] (-) TimerEvent: {}
+[4.852936] (-) TimerEvent: {}
+[4.888876] (cpp_pubsub) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable talker\x1b[0m\n'}
+[4.956989] (-) TimerEvent: {}
+[5.058323] (-) TimerEvent: {}
+[5.176809] (-) TimerEvent: {}
+[5.180014] (cpp_pubsub) StdoutLine: {'line': b'[100%] Built target talker\n'}
+[5.192412] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[5.194907] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'install'}
+[5.205639] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/gentleshaz/ros2_ws/l1/build/cpp_pubsub'], 'cwd': '/home/gentleshaz/ros2_ws/l1/build/cpp_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'gentleshaz'), ('SSH_AGENT_PID', '1351'), ('ROS_PACKAGE_PATH', '/opt/ros/noetic/share'), ('XDG_SESSION_TYPE', 'x11'), ('ROS_ETC_DIR', '/opt/ros/noetic/etc/ros'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/opt/ros/noetic/lib'), ('HOME', '/home/gentleshaz'), ('OLDPWD', '/home/gentleshaz'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1064'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/gentleshaz/ros2_ws/l1/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'gentleshaz'), ('JOURNAL_STREAM', '8:30310'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/noetic/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gentleshaz'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/opt/ros/noetic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/gentleshaz-VirtualBox:@/tmp/.ICE-unix/1405,unix/gentleshaz-VirtualBox:/tmp/.ICE-unix/1405'), ('INVOCATION_ID', 'e4309b66cb4943a195e3db939ef67df8'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/93fb5271_02e6_49a7_871e_e09fdaea4f4b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'ru_RU.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.173'), ('ROS_ROOT', '/opt/ros/noetic/share/ros'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/gentleshaz/ros2_ws/l1/install/cpp_pubsub:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gentleshaz/ros2_ws/l1/build/cpp_pubsub'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages:/opt/ros/noetic/lib/python3/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/gentleshaz/ros2_ws/l1/install/cpp_pubsub:/opt/ros/foxy:/opt/ros/noetic')]), 'shell': False}
+[5.216948] (cpp_pubsub) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.217229] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/gentleshaz/ros2_ws/l1/install/cpp_pubsub/lib/cpp_pubsub/talker\n'}
+[5.220490] (cpp_pubsub) StdoutLine: {'line': b'-- Set runtime path of "/home/gentleshaz/ros2_ws/l1/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""\n'}
+[5.220737] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/gentleshaz/ros2_ws/l1/install/cpp_pubsub/lib/cpp_pubsub/listener\n'}
+[5.220978] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/gentleshaz/ros2_ws/l1/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub\n'}
+[5.221197] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/gentleshaz/ros2_ws/l1/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub\n'}
+[5.221383] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/gentleshaz/ros2_ws/l1/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh\n'}
+[5.221563] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/gentleshaz/ros2_ws/l1/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv\n'}
+[5.221734] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/gentleshaz/ros2_ws/l1/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh\n'}
+[5.221815] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/gentleshaz/ros2_ws/l1/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv\n'}
+[5.221943] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/gentleshaz/ros2_ws/l1/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash\n'}
+[5.222075] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/gentleshaz/ros2_ws/l1/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh\n'}
+[5.222171] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/gentleshaz/ros2_ws/l1/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh\n'}
+[5.222341] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/gentleshaz/ros2_ws/l1/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv\n'}
+[5.222425] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/gentleshaz/ros2_ws/l1/install/cpp_pubsub/share/cpp_pubsub/package.dsv\n'}
+[5.222498] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/gentleshaz/ros2_ws/l1/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub\n'}
+[5.222569] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/gentleshaz/ros2_ws/l1/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake\n'}
+[5.222640] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/gentleshaz/ros2_ws/l1/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake\n'}
+[5.222710] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/gentleshaz/ros2_ws/l1/install/cpp_pubsub/share/cpp_pubsub/package.xml\n'}
+[5.224028] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[5.244837] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 0}
+[5.245643] (-) EventReactorShutdown: {}

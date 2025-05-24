@@ -1,0 +1,98 @@
+[0.018s] Invoking command in '/home/gentleshaz/ros2_ws/l5/build/simple_map': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/gentleshaz/ros2_ws/l5/src/simple_map -DCMAKE_INSTALL_PREFIX=/home/gentleshaz/ros2_ws/l5/install/simple_map
+[0.170s] -- The C compiler identification is GNU 9.4.0
+[0.241s] -- The CXX compiler identification is GNU 9.4.0
+[0.250s] -- Check for working C compiler: /usr/bin/cc
+[0.332s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.333s] -- Detecting C compiler ABI info
+[0.411s] -- Detecting C compiler ABI info - done
+[0.424s] -- Detecting C compile features
+[0.424s] -- Detecting C compile features - done
+[0.428s] -- Check for working CXX compiler: /usr/bin/c++
+[0.520s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.521s] -- Detecting CXX compiler ABI info
+[0.613s] -- Detecting CXX compiler ABI info - done
+[0.627s] -- Detecting CXX compile features
+[0.627s] -- Detecting CXX compile features - done
+[0.630s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.661s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.661s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.922s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.987s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.996s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.128s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.165s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.266s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.348s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.351s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.353s] -- Looking for pthread.h
+[1.446s] -- Looking for pthread.h - found
+[1.446s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.529s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.530s] -- Looking for pthread_create in pthreads
+[1.598s] -- Looking for pthread_create in pthreads - not found
+[1.598s] -- Looking for pthread_create in pthread
+[1.679s] -- Looking for pthread_create in pthread - found
+[1.681s] -- Found Threads: TRUE  
+[1.876s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[2.007s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[2.089s] -- Found tf2_geometry_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)
+[2.099s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[2.103s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[2.688s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.772s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.773s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.774s] -- Configured cppcheck include dirs: /home/gentleshaz/ros2_ws/l5/src/simple_map/include
+[2.774s] -- Configured cppcheck exclude dirs and/or files: 
+[2.775s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.775s] -- Configured cpplint exclude dirs and/or files: 
+[2.776s] -- Added test 'lint_cmake' to check CMake code style
+[2.777s] -- Added test 'uncrustify' to check C / C++ code style
+[2.777s] -- Configured uncrustify additional arguments: 
+[2.777s] -- Added test 'xmllint' to check XML markup files
+[2.782s] -- Configuring done
+[2.804s] -- Generating done
+[2.813s] -- Build files have been written to: /home/gentleshaz/ros2_ws/l5/build/simple_map
+[2.826s] Invoked command in '/home/gentleshaz/ros2_ws/l5/build/simple_map' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/gentleshaz/ros2_ws/l5/src/simple_map -DCMAKE_INSTALL_PREFIX=/home/gentleshaz/ros2_ws/l5/install/simple_map
+[2.828s] Invoking command in '/home/gentleshaz/ros2_ws/l5/build/simple_map': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/gentleshaz/ros2_ws/l5/build/simple_map -- -j4 -l4
+[2.875s] [35m[1mScanning dependencies of target scan_to_map[0m
+[2.926s] [ 25%] [32mBuilding CXX object CMakeFiles/scan_to_map.dir/src/scan_to_map.cpp.o[0m
+[4.132s] [01m[K/home/gentleshaz/ros2_ws/l5/src/simple_map/src/scan_to_map.cpp:[m[K In function ‘[01m[Kvoid scan_to_map(const LaserScan&, nav_msgs::msg::OccupancyGrid&, const tf2::Transform&)[m[K’:
+[4.132s] [01m[K/home/gentleshaz/ros2_ws/l5/src/simple_map/src/scan_to_map.cpp:19:25:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[4.132s]    19 |             std::size_t [01;35m[Kx[m[K = v.x() / map.info.resolution;
+[4.132s]       |                         [01;35m[K^[m[K
+[4.132s] [01m[K/home/gentleshaz/ros2_ws/l5/src/simple_map/src/scan_to_map.cpp:20:25:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ky[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[4.132s]    20 |             std::size_t [01;35m[Ky[m[K = v.y() / map.info.resolution;
+[4.133s]       |                         [01;35m[K^[m[K
+[4.492s] [ 50%] [32m[1mLinking CXX static library libscan_to_map.a[0m
+[4.530s] [ 50%] Built target scan_to_map
+[4.541s] [35m[1mScanning dependencies of target simple_map_node[0m
+[4.602s] [ 75%] [32mBuilding CXX object CMakeFiles/simple_map_node.dir/src/simple_map_1.cpp.o[0m
+[10.302s] [100%] [32m[1mLinking CXX executable simple_map_node[0m
+[10.706s] [100%] Built target simple_map_node
+[10.720s] Invoked command in '/home/gentleshaz/ros2_ws/l5/build/simple_map' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/gentleshaz/ros2_ws/l5/build/simple_map -- -j4 -l4
+[10.736s] Invoking command in '/home/gentleshaz/ros2_ws/l5/build/simple_map': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/gentleshaz/ros2_ws/l5/build/simple_map
+[10.745s] -- Install configuration: ""
+[10.745s] -- Installing: /home/gentleshaz/ros2_ws/l5/install/simple_map/lib/simple_map/libscan_to_map.a
+[10.745s] -- Installing: /home/gentleshaz/ros2_ws/l5/install/simple_map/lib/simple_map/simple_map_node
+[10.748s] -- Set runtime path of "/home/gentleshaz/ros2_ws/l5/install/simple_map/lib/simple_map/simple_map_node" to ""
+[10.748s] -- Installing: /home/gentleshaz/ros2_ws/l5/install/simple_map/include
+[10.749s] -- Installing: /home/gentleshaz/ros2_ws/l5/install/simple_map/include/simple_map
+[10.749s] -- Installing: /home/gentleshaz/ros2_ws/l5/install/simple_map/include/simple_map/scan_to_map.h
+[10.749s] -- Installing: /home/gentleshaz/ros2_ws/l5/install/simple_map/share/simple_map/launch
+[10.749s] -- Installing: /home/gentleshaz/ros2_ws/l5/install/simple_map/share/simple_map/launch/map.launch.xml
+[10.751s] -- Installing: /home/gentleshaz/ros2_ws/l5/install/simple_map/share/ament_index/resource_index/package_run_dependencies/simple_map
+[10.751s] -- Installing: /home/gentleshaz/ros2_ws/l5/install/simple_map/share/ament_index/resource_index/parent_prefix_path/simple_map
+[10.751s] -- Installing: /home/gentleshaz/ros2_ws/l5/install/simple_map/share/simple_map/environment/ament_prefix_path.sh
+[10.752s] -- Installing: /home/gentleshaz/ros2_ws/l5/install/simple_map/share/simple_map/environment/ament_prefix_path.dsv
+[10.752s] -- Installing: /home/gentleshaz/ros2_ws/l5/install/simple_map/share/simple_map/environment/path.sh
+[10.752s] -- Installing: /home/gentleshaz/ros2_ws/l5/install/simple_map/share/simple_map/environment/path.dsv
+[10.752s] -- Installing: /home/gentleshaz/ros2_ws/l5/install/simple_map/share/simple_map/local_setup.bash
+[10.752s] -- Installing: /home/gentleshaz/ros2_ws/l5/install/simple_map/share/simple_map/local_setup.sh
+[10.753s] -- Installing: /home/gentleshaz/ros2_ws/l5/install/simple_map/share/simple_map/local_setup.zsh
+[10.753s] -- Installing: /home/gentleshaz/ros2_ws/l5/install/simple_map/share/simple_map/local_setup.dsv
+[10.753s] -- Installing: /home/gentleshaz/ros2_ws/l5/install/simple_map/share/simple_map/package.dsv
+[10.753s] -- Installing: /home/gentleshaz/ros2_ws/l5/install/simple_map/share/ament_index/resource_index/packages/simple_map
+[10.753s] -- Installing: /home/gentleshaz/ros2_ws/l5/install/simple_map/share/simple_map/cmake/simple_mapConfig.cmake
+[10.754s] -- Installing: /home/gentleshaz/ros2_ws/l5/install/simple_map/share/simple_map/cmake/simple_mapConfig-version.cmake
+[10.754s] -- Installing: /home/gentleshaz/ros2_ws/l5/install/simple_map/share/simple_map/package.xml
+[10.757s] Invoked command in '/home/gentleshaz/ros2_ws/l5/build/simple_map' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/gentleshaz/ros2_ws/l5/build/simple_map

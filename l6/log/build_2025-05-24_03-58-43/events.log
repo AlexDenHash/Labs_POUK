@@ -1,0 +1,188 @@
+[0.000000] (-) TimerEvent: {}
+[0.000824] (patrol_bot) JobQueued: {'identifier': 'patrol_bot', 'dependencies': OrderedDict()}
+[0.000866] (patrol_bot) JobStarted: {'identifier': 'patrol_bot'}
+[0.011204] (patrol_bot) JobProgress: {'identifier': 'patrol_bot', 'progress': 'cmake'}
+[0.012420] (patrol_bot) Command: {'cmd': ['/usr/bin/cmake', '/home/gentleshaz/ros2_ws/l6/src/patrol_bot', '-DCMAKE_INSTALL_PREFIX=/home/gentleshaz/ros2_ws/l6/install/patrol_bot'], 'cwd': '/home/gentleshaz/ros2_ws/l6/build/patrol_bot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'gentleshaz'), ('SSH_AGENT_PID', '1351'), ('ROS_PACKAGE_PATH', '/opt/ros/noetic/share'), ('XDG_SESSION_TYPE', 'x11'), ('ROS_ETC_DIR', '/opt/ros/noetic/etc/ros'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/opt/ros/noetic/lib'), ('HOME', '/home/gentleshaz'), ('OLDPWD', '/home/gentleshaz'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1064'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'gentleshaz'), ('JOURNAL_STREAM', '8:246183'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/noetic/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gentleshaz'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/opt/ros/noetic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/gentleshaz-VirtualBox:@/tmp/.ICE-unix/24006,unix/gentleshaz-VirtualBox:/tmp/.ICE-unix/24006'), ('INVOCATION_ID', 'cc1cb2cc8859467da49a2d12610d7fe0'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a1e2a012_a7ad_45dd_9e5a_a5de917eda0b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'ru_RU.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.138'), ('ROS_ROOT', '/opt/ros/noetic/share/ros'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gentleshaz/ros2_ws/l6/build/patrol_bot'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages:/opt/ros/noetic/lib/python3/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy:/opt/ros/noetic')]), 'shell': False}
+[0.099926] (-) TimerEvent: {}
+[0.108869] (patrol_bot) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.189302] (patrol_bot) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.192323] (patrol_bot) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.200112] (-) TimerEvent: {}
+[0.288650] (patrol_bot) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.291952] (patrol_bot) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.300907] (-) TimerEvent: {}
+[0.391366] (patrol_bot) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.403333] (-) TimerEvent: {}
+[0.408865] (patrol_bot) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.409525] (patrol_bot) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.418068] (patrol_bot) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.504517] (-) TimerEvent: {}
+[0.525188] (patrol_bot) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.526829] (patrol_bot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.604911] (-) TimerEvent: {}
+[0.641341] (patrol_bot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.659039] (patrol_bot) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.662314] (patrol_bot) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.662457] (patrol_bot) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.693246] (patrol_bot) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.695320] (patrol_bot) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.705265] (-) TimerEvent: {}
+[0.806005] (-) TimerEvent: {}
+[0.907086] (-) TimerEvent: {}
+[0.962095] (patrol_bot) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[1.007843] (-) TimerEvent: {}
+[1.011227] (patrol_bot) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.018472] (patrol_bot) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.108054] (-) TimerEvent: {}
+[1.148343] (patrol_bot) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[1.188617] (patrol_bot) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[1.212819] (-) TimerEvent: {}
+[1.285083] (patrol_bot) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.313748] (-) TimerEvent: {}
+[1.351359] (patrol_bot) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[1.352859] (patrol_bot) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.353823] (patrol_bot) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.414536] (-) TimerEvent: {}
+[1.464114] (patrol_bot) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.464447] (patrol_bot) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.517132] (-) TimerEvent: {}
+[1.574381] (patrol_bot) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[1.574706] (patrol_bot) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[1.619128] (-) TimerEvent: {}
+[1.658940] (patrol_bot) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[1.659244] (patrol_bot) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[1.719445] (-) TimerEvent: {}
+[1.763895] (patrol_bot) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[1.765232] (patrol_bot) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.819699] (-) TimerEvent: {}
+[1.921896] (-) TimerEvent: {}
+[1.954420] (patrol_bot) StdoutLine: {'line': b'-- Found rclcpp_action: 2.4.3 (/opt/ros/foxy/share/rclcpp_action/cmake)\n'}
+[2.022009] (-) TimerEvent: {}
+[2.048749] (patrol_bot) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[2.090047] (patrol_bot) StdoutLine: {'line': b'-- Found nav2_msgs: 0.4.7 (/opt/ros/foxy/share/nav2_msgs/cmake)\n'}
+[2.125778] (-) TimerEvent: {}
+[2.226514] (-) TimerEvent: {}
+[2.334927] (-) TimerEvent: {}
+[2.435527] (-) TimerEvent: {}
+[2.536328] (-) TimerEvent: {}
+[2.540777] (patrol_bot) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.554852] (patrol_bot) StdoutLine: {'line': b'-- Generating done\n'}
+[2.561197] (patrol_bot) StdoutLine: {'line': b'-- Build files have been written to: /home/gentleshaz/ros2_ws/l6/build/patrol_bot\n'}
+[2.575710] (patrol_bot) CommandEnded: {'returncode': 0}
+[2.576928] (patrol_bot) JobProgress: {'identifier': 'patrol_bot', 'progress': 'build'}
+[2.580022] (patrol_bot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/gentleshaz/ros2_ws/l6/build/patrol_bot', '--', '-j4', '-l4'], 'cwd': '/home/gentleshaz/ros2_ws/l6/build/patrol_bot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'gentleshaz'), ('SSH_AGENT_PID', '1351'), ('ROS_PACKAGE_PATH', '/opt/ros/noetic/share'), ('XDG_SESSION_TYPE', 'x11'), ('ROS_ETC_DIR', '/opt/ros/noetic/etc/ros'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/opt/ros/noetic/lib'), ('HOME', '/home/gentleshaz'), ('OLDPWD', '/home/gentleshaz'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1064'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'gentleshaz'), ('JOURNAL_STREAM', '8:246183'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/noetic/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gentleshaz'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/opt/ros/noetic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/gentleshaz-VirtualBox:@/tmp/.ICE-unix/24006,unix/gentleshaz-VirtualBox:/tmp/.ICE-unix/24006'), ('INVOCATION_ID', 'cc1cb2cc8859467da49a2d12610d7fe0'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a1e2a012_a7ad_45dd_9e5a_a5de917eda0b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'ru_RU.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.138'), ('ROS_ROOT', '/opt/ros/noetic/share/ros'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gentleshaz/ros2_ws/l6/build/patrol_bot'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages:/opt/ros/noetic/lib/python3/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy:/opt/ros/noetic')]), 'shell': False}
+[2.637043] (-) TimerEvent: {}
+[2.637541] (patrol_bot) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target patrol_bot_node\x1b[0m\n'}
+[2.697966] (patrol_bot) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/patrol_bot_node.dir/src/patrol_bot_node.cpp.o\x1b[0m\n'}
+[2.741136] (-) TimerEvent: {}
+[2.842221] (-) TimerEvent: {}
+[2.943061] (-) TimerEvent: {}
+[3.045476] (-) TimerEvent: {}
+[3.146220] (-) TimerEvent: {}
+[3.246576] (-) TimerEvent: {}
+[3.346988] (-) TimerEvent: {}
+[3.448297] (-) TimerEvent: {}
+[3.549645] (-) TimerEvent: {}
+[3.650270] (-) TimerEvent: {}
+[3.750791] (-) TimerEvent: {}
+[3.852497] (-) TimerEvent: {}
+[3.953455] (-) TimerEvent: {}
+[4.054786] (-) TimerEvent: {}
+[4.155373] (-) TimerEvent: {}
+[4.256423] (-) TimerEvent: {}
+[4.359507] (-) TimerEvent: {}
+[4.461424] (-) TimerEvent: {}
+[4.563230] (-) TimerEvent: {}
+[4.664097] (-) TimerEvent: {}
+[4.764506] (-) TimerEvent: {}
+[4.865373] (-) TimerEvent: {}
+[4.966225] (-) TimerEvent: {}
+[5.066718] (-) TimerEvent: {}
+[5.167381] (-) TimerEvent: {}
+[5.268973] (-) TimerEvent: {}
+[5.370036] (-) TimerEvent: {}
+[5.470491] (-) TimerEvent: {}
+[5.571073] (-) TimerEvent: {}
+[5.672524] (-) TimerEvent: {}
+[5.773156] (-) TimerEvent: {}
+[5.873652] (-) TimerEvent: {}
+[5.977377] (-) TimerEvent: {}
+[6.080163] (-) TimerEvent: {}
+[6.180910] (-) TimerEvent: {}
+[6.281822] (-) TimerEvent: {}
+[6.382276] (-) TimerEvent: {}
+[6.482786] (-) TimerEvent: {}
+[6.583268] (-) TimerEvent: {}
+[6.684021] (-) TimerEvent: {}
+[6.784508] (-) TimerEvent: {}
+[6.886679] (-) TimerEvent: {}
+[6.987708] (-) TimerEvent: {}
+[7.088642] (-) TimerEvent: {}
+[7.189406] (-) TimerEvent: {}
+[7.290125] (-) TimerEvent: {}
+[7.391565] (-) TimerEvent: {}
+[7.493697] (-) TimerEvent: {}
+[7.600160] (-) TimerEvent: {}
+[7.701374] (-) TimerEvent: {}
+[7.802753] (-) TimerEvent: {}
+[7.903549] (-) TimerEvent: {}
+[8.004639] (-) TimerEvent: {}
+[8.105378] (-) TimerEvent: {}
+[8.207285] (-) TimerEvent: {}
+[8.308319] (-) TimerEvent: {}
+[8.417743] (-) TimerEvent: {}
+[8.518581] (-) TimerEvent: {}
+[8.619022] (-) TimerEvent: {}
+[8.719376] (-) TimerEvent: {}
+[8.820355] (-) TimerEvent: {}
+[8.921713] (-) TimerEvent: {}
+[9.022528] (-) TimerEvent: {}
+[9.124461] (-) TimerEvent: {}
+[9.224896] (-) TimerEvent: {}
+[9.326720] (-) TimerEvent: {}
+[9.427857] (-) TimerEvent: {}
+[9.529128] (-) TimerEvent: {}
+[9.630641] (-) TimerEvent: {}
+[9.731247] (-) TimerEvent: {}
+[9.832218] (-) TimerEvent: {}
+[9.932946] (-) TimerEvent: {}
+[10.033748] (-) TimerEvent: {}
+[10.134919] (-) TimerEvent: {}
+[10.235217] (-) TimerEvent: {}
+[10.335511] (-) TimerEvent: {}
+[10.436158] (-) TimerEvent: {}
+[10.538060] (-) TimerEvent: {}
+[10.563484] (patrol_bot) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable patrol_bot_node\x1b[0m\n'}
+[10.643439] (-) TimerEvent: {}
+[10.744585] (-) TimerEvent: {}
+[10.845264] (-) TimerEvent: {}
+[10.947328] (-) TimerEvent: {}
+[11.085860] (-) TimerEvent: {}
+[11.099044] (patrol_bot) StdoutLine: {'line': b'[100%] Built target patrol_bot_node\n'}
+[11.116015] (patrol_bot) CommandEnded: {'returncode': 0}
+[11.118998] (patrol_bot) JobProgress: {'identifier': 'patrol_bot', 'progress': 'install'}
+[11.134326] (patrol_bot) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/gentleshaz/ros2_ws/l6/build/patrol_bot'], 'cwd': '/home/gentleshaz/ros2_ws/l6/build/patrol_bot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'gentleshaz'), ('SSH_AGENT_PID', '1351'), ('ROS_PACKAGE_PATH', '/opt/ros/noetic/share'), ('XDG_SESSION_TYPE', 'x11'), ('ROS_ETC_DIR', '/opt/ros/noetic/etc/ros'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/opt/ros/noetic/lib'), ('HOME', '/home/gentleshaz'), ('OLDPWD', '/home/gentleshaz'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1064'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'gentleshaz'), ('JOURNAL_STREAM', '8:246183'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/noetic/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gentleshaz'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/opt/ros/noetic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/gentleshaz-VirtualBox:@/tmp/.ICE-unix/24006,unix/gentleshaz-VirtualBox:/tmp/.ICE-unix/24006'), ('INVOCATION_ID', 'cc1cb2cc8859467da49a2d12610d7fe0'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a1e2a012_a7ad_45dd_9e5a_a5de917eda0b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'ru_RU.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.138'), ('ROS_ROOT', '/opt/ros/noetic/share/ros'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gentleshaz/ros2_ws/l6/build/patrol_bot'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages:/opt/ros/noetic/lib/python3/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy:/opt/ros/noetic')]), 'shell': False}
+[11.152787] (patrol_bot) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.153135] (patrol_bot) StdoutLine: {'line': b'-- Installing: /home/gentleshaz/ros2_ws/l6/install/patrol_bot/lib/patrol_bot/patrol_bot_node\n'}
+[11.158838] (patrol_bot) StdoutLine: {'line': b'-- Set runtime path of "/home/gentleshaz/ros2_ws/l6/install/patrol_bot/lib/patrol_bot/patrol_bot_node" to ""\n'}
+[11.159239] (patrol_bot) StdoutLine: {'line': b'-- Installing: /home/gentleshaz/ros2_ws/l6/install/patrol_bot/share/patrol_bot/config\n'}
+[11.159346] (patrol_bot) StdoutLine: {'line': b'-- Installing: /home/gentleshaz/ros2_ws/l6/install/patrol_bot/share/patrol_bot/config/bridge.yaml\n'}
+[11.159503] (patrol_bot) StdoutLine: {'line': b'-- Installing: /home/gentleshaz/ros2_ws/l6/install/patrol_bot/share/ament_index/resource_index/package_run_dependencies/patrol_bot\n'}
+[11.159635] (patrol_bot) StdoutLine: {'line': b'-- Installing: /home/gentleshaz/ros2_ws/l6/install/patrol_bot/share/ament_index/resource_index/parent_prefix_path/patrol_bot\n'}
+[11.162033] (patrol_bot) StdoutLine: {'line': b'-- Installing: /home/gentleshaz/ros2_ws/l6/install/patrol_bot/share/patrol_bot/environment/ament_prefix_path.sh\n'}
+[11.162433] (patrol_bot) StdoutLine: {'line': b'-- Installing: /home/gentleshaz/ros2_ws/l6/install/patrol_bot/share/patrol_bot/environment/ament_prefix_path.dsv\n'}
+[11.162515] (patrol_bot) StdoutLine: {'line': b'-- Installing: /home/gentleshaz/ros2_ws/l6/install/patrol_bot/share/patrol_bot/environment/path.sh\n'}
+[11.162717] (patrol_bot) StdoutLine: {'line': b'-- Installing: /home/gentleshaz/ros2_ws/l6/install/patrol_bot/share/patrol_bot/environment/path.dsv\n'}
+[11.162801] (patrol_bot) StdoutLine: {'line': b'-- Installing: /home/gentleshaz/ros2_ws/l6/install/patrol_bot/share/patrol_bot/local_setup.bash\n'}
+[11.162872] (patrol_bot) StdoutLine: {'line': b'-- Installing: /home/gentleshaz/ros2_ws/l6/install/patrol_bot/share/patrol_bot/local_setup.sh\n'}
+[11.162942] (patrol_bot) StdoutLine: {'line': b'-- Installing: /home/gentleshaz/ros2_ws/l6/install/patrol_bot/share/patrol_bot/local_setup.zsh\n'}
+[11.163012] (patrol_bot) StdoutLine: {'line': b'-- Installing: /home/gentleshaz/ros2_ws/l6/install/patrol_bot/share/patrol_bot/local_setup.dsv\n'}
+[11.163088] (patrol_bot) StdoutLine: {'line': b'-- Installing: /home/gentleshaz/ros2_ws/l6/install/patrol_bot/share/patrol_bot/package.dsv\n'}
+[11.163160] (patrol_bot) StdoutLine: {'line': b'-- Installing: /home/gentleshaz/ros2_ws/l6/install/patrol_bot/share/ament_index/resource_index/packages/patrol_bot\n'}
+[11.163232] (patrol_bot) StdoutLine: {'line': b'-- Installing: /home/gentleshaz/ros2_ws/l6/install/patrol_bot/share/patrol_bot/cmake/patrol_botConfig.cmake\n'}
+[11.163320] (patrol_bot) StdoutLine: {'line': b'-- Installing: /home/gentleshaz/ros2_ws/l6/install/patrol_bot/share/patrol_bot/cmake/patrol_botConfig-version.cmake\n'}
+[11.163398] (patrol_bot) StdoutLine: {'line': b'-- Installing: /home/gentleshaz/ros2_ws/l6/install/patrol_bot/share/patrol_bot/package.xml\n'}
+[11.167950] (patrol_bot) CommandEnded: {'returncode': 0}
+[11.187011] (-) TimerEvent: {}
+[11.188607] (patrol_bot) JobEnded: {'identifier': 'patrol_bot', 'rc': 0}
+[11.190072] (-) EventReactorShutdown: {}

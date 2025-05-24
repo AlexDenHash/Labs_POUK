@@ -1,0 +1,6 @@
+Invoking command in '/home/gentleshaz/ros2_ws/l3/build/line_control': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/gentleshaz/ros2_ws/l3/src/line_control -DCMAKE_INSTALL_PREFIX=/home/gentleshaz/ros2_ws/l3/install/line_control
+Invoked command in '/home/gentleshaz/ros2_ws/l3/build/line_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/gentleshaz/ros2_ws/l3/src/line_control -DCMAKE_INSTALL_PREFIX=/home/gentleshaz/ros2_ws/l3/install/line_control
+Invoking command in '/home/gentleshaz/ros2_ws/l3/build/line_control': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/gentleshaz/ros2_ws/l3/build/line_control -- -j4 -l4
+Invoked command in '/home/gentleshaz/ros2_ws/l3/build/line_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/gentleshaz/ros2_ws/l3/build/line_control -- -j4 -l4
+Invoking command in '/home/gentleshaz/ros2_ws/l3/build/line_control': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/gentleshaz/ros2_ws/l3/build/line_control
+Invoked command in '/home/gentleshaz/ros2_ws/l3/build/line_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/gentleshaz/ros2_ws/l3/build/line_control

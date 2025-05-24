@@ -1,0 +1,393 @@
+[0.000000] (-) TimerEvent: {}
+[0.000758] (control_selector) JobQueued: {'identifier': 'control_selector', 'dependencies': OrderedDict()}
+[0.000809] (simple_map) JobQueued: {'identifier': 'simple_map', 'dependencies': OrderedDict()}
+[0.000840] (control_selector) JobStarted: {'identifier': 'control_selector'}
+[0.013254] (simple_map) JobStarted: {'identifier': 'simple_map'}
+[0.019825] (control_selector) JobProgress: {'identifier': 'control_selector', 'progress': 'cmake'}
+[0.020465] (control_selector) Command: {'cmd': ['/usr/bin/cmake', '/home/gentleshaz/ros2_ws/l5/src/control_selector', '-DCMAKE_INSTALL_PREFIX=/home/gentleshaz/ros2_ws/l5/install/control_selector'], 'cwd': '/home/gentleshaz/ros2_ws/l5/build/control_selector', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'gentleshaz'), ('SSH_AGENT_PID', '1351'), ('ROS_PACKAGE_PATH', '/opt/ros/noetic/share'), ('XDG_SESSION_TYPE', 'x11'), ('ROS_ETC_DIR', '/opt/ros/noetic/etc/ros'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/opt/ros/noetic/lib'), ('HOME', '/home/gentleshaz'), ('OLDPWD', '/home/gentleshaz'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1064'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'gentleshaz'), ('JOURNAL_STREAM', '8:246183'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/noetic/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gentleshaz'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/opt/ros/noetic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/gentleshaz-VirtualBox:@/tmp/.ICE-unix/24006,unix/gentleshaz-VirtualBox:/tmp/.ICE-unix/24006'), ('INVOCATION_ID', 'cc1cb2cc8859467da49a2d12610d7fe0'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/68c2f63a_3adc_450b_880b_beb05c64bd85'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'ru_RU.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.108'), ('ROS_ROOT', '/opt/ros/noetic/share/ros'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gentleshaz/ros2_ws/l5/build/control_selector'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages:/opt/ros/noetic/lib/python3/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy:/opt/ros/noetic')]), 'shell': False}
+[0.027438] (simple_map) JobProgress: {'identifier': 'simple_map', 'progress': 'cmake'}
+[0.027996] (simple_map) Command: {'cmd': ['/usr/bin/cmake', '/home/gentleshaz/ros2_ws/l5/src/simple_map', '-DCMAKE_INSTALL_PREFIX=/home/gentleshaz/ros2_ws/l5/install/simple_map'], 'cwd': '/home/gentleshaz/ros2_ws/l5/build/simple_map', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'gentleshaz'), ('SSH_AGENT_PID', '1351'), ('ROS_PACKAGE_PATH', '/opt/ros/noetic/share'), ('XDG_SESSION_TYPE', 'x11'), ('ROS_ETC_DIR', '/opt/ros/noetic/etc/ros'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/opt/ros/noetic/lib'), ('HOME', '/home/gentleshaz'), ('OLDPWD', '/home/gentleshaz'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1064'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'gentleshaz'), ('JOURNAL_STREAM', '8:246183'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/noetic/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gentleshaz'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/opt/ros/noetic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/gentleshaz-VirtualBox:@/tmp/.ICE-unix/24006,unix/gentleshaz-VirtualBox:/tmp/.ICE-unix/24006'), ('INVOCATION_ID', 'cc1cb2cc8859467da49a2d12610d7fe0'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/68c2f63a_3adc_450b_880b_beb05c64bd85'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'ru_RU.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.108'), ('ROS_ROOT', '/opt/ros/noetic/share/ros'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gentleshaz/ros2_ws/l5/build/simple_map'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages:/opt/ros/noetic/lib/python3/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy:/opt/ros/noetic')]), 'shell': False}
+[0.099352] (-) TimerEvent: {}
+[0.182479] (simple_map) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.182925] (control_selector) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.199638] (-) TimerEvent: {}
+[0.253984] (control_selector) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.254302] (simple_map) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.263416] (simple_map) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.263640] (control_selector) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.301244] (-) TimerEvent: {}
+[0.342888] (control_selector) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.345031] (control_selector) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.345623] (simple_map) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.346597] (simple_map) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.401335] (-) TimerEvent: {}
+[0.423880] (control_selector) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.424118] (simple_map) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.436720] (control_selector) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.436971] (simple_map) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.437414] (control_selector) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.437653] (simple_map) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.441205] (simple_map) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.441401] (control_selector) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.501707] (-) TimerEvent: {}
+[0.533067] (simple_map) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.534422] (simple_map) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.534827] (control_selector) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.535953] (control_selector) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.601987] (-) TimerEvent: {}
+[0.626511] (simple_map) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.627240] (control_selector) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.639853] (simple_map) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.640468] (simple_map) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.640664] (control_selector) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.641165] (control_selector) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.643187] (control_selector) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.643458] (simple_map) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.673544] (control_selector) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.674057] (simple_map) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.674309] (simple_map) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.674502] (control_selector) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.703549] (-) TimerEvent: {}
+[0.809512] (-) TimerEvent: {}
+[0.910006] (-) TimerEvent: {}
+[0.934624] (simple_map) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.934901] (control_selector) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[1.000299] (control_selector) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.000626] (simple_map) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.008867] (simple_map) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.008999] (control_selector) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.010303] (-) TimerEvent: {}
+[1.110898] (-) TimerEvent: {}
+[1.137730] (control_selector) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[1.141092] (simple_map) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[1.176330] (control_selector) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[1.177997] (simple_map) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[1.211288] (-) TimerEvent: {}
+[1.278636] (control_selector) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.278948] (simple_map) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.311388] (-) TimerEvent: {}
+[1.361087] (simple_map) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[1.361566] (control_selector) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[1.364180] (simple_map) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.364411] (control_selector) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.366428] (control_selector) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.366556] (simple_map) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.411562] (-) TimerEvent: {}
+[1.458327] (control_selector) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.458662] (control_selector) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.458978] (simple_map) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.459409] (simple_map) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.516690] (-) TimerEvent: {}
+[1.542577] (simple_map) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[1.542920] (simple_map) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[1.543052] (control_selector) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[1.543154] (control_selector) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[1.611114] (simple_map) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[1.611541] (simple_map) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[1.611699] (control_selector) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[1.611807] (control_selector) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[1.617113] (-) TimerEvent: {}
+[1.691290] (control_selector) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[1.692493] (simple_map) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[1.692789] (control_selector) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.693706] (simple_map) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.717168] (-) TimerEvent: {}
+[1.825613] (-) TimerEvent: {}
+[1.888847] (simple_map) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[1.889093] (control_selector) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[1.927421] (-) TimerEvent: {}
+[1.928352] (control_selector) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[2.010104] (control_selector) StdoutLine: {'line': b'-- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)\n'}
+[2.020237] (simple_map) StdoutLine: {'line': b'-- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)\n'}
+[2.028684] (-) TimerEvent: {}
+[2.096303] (control_selector) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[2.102285] (simple_map) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)\n'}
+[2.112229] (simple_map) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)\n'}
+[2.116656] (simple_map) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.3.7") \n'}
+[2.129875] (-) TimerEvent: {}
+[2.186770] (control_selector) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.188788] (control_selector) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.189012] (control_selector) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[2.189128] (control_selector) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.190706] (control_selector) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[2.190836] (control_selector) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[2.192242] (control_selector) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.194449] (control_selector) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.194566] (control_selector) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.195360] (control_selector) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.200394] (control_selector) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.212516] (control_selector) StdoutLine: {'line': b'-- Generating done\n'}
+[2.218586] (control_selector) StdoutLine: {'line': b'-- Build files have been written to: /home/gentleshaz/ros2_ws/l5/build/control_selector\n'}
+[2.228126] (control_selector) CommandEnded: {'returncode': 0}
+[2.228957] (control_selector) JobProgress: {'identifier': 'control_selector', 'progress': 'build'}
+[2.229891] (control_selector) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/gentleshaz/ros2_ws/l5/build/control_selector', '--', '-j4', '-l4'], 'cwd': '/home/gentleshaz/ros2_ws/l5/build/control_selector', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'gentleshaz'), ('SSH_AGENT_PID', '1351'), ('ROS_PACKAGE_PATH', '/opt/ros/noetic/share'), ('XDG_SESSION_TYPE', 'x11'), ('ROS_ETC_DIR', '/opt/ros/noetic/etc/ros'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/opt/ros/noetic/lib'), ('HOME', '/home/gentleshaz'), ('OLDPWD', '/home/gentleshaz'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1064'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'gentleshaz'), ('JOURNAL_STREAM', '8:246183'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/noetic/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gentleshaz'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/opt/ros/noetic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/gentleshaz-VirtualBox:@/tmp/.ICE-unix/24006,unix/gentleshaz-VirtualBox:/tmp/.ICE-unix/24006'), ('INVOCATION_ID', 'cc1cb2cc8859467da49a2d12610d7fe0'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/68c2f63a_3adc_450b_880b_beb05c64bd85'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'ru_RU.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.108'), ('ROS_ROOT', '/opt/ros/noetic/share/ros'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gentleshaz/ros2_ws/l5/build/control_selector'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages:/opt/ros/noetic/lib/python3/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy:/opt/ros/noetic')]), 'shell': False}
+[2.232667] (-) TimerEvent: {}
+[2.274098] (control_selector) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target control_selector_node\x1b[0m\n'}
+[2.332942] (-) TimerEvent: {}
+[2.394266] (control_selector) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/control_selector_node.dir/src/dummy_control.cpp.o\x1b[0m\n'}
+[2.395883] (control_selector) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/control_selector_node.dir/src/control_selector_node.cpp.o\x1b[0m\n'}
+[2.399519] (control_selector) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/control_selector_node.dir/src/wall_control.cpp.o\x1b[0m\n'}
+[2.403070] (control_selector) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/control_selector_node.dir/src/voyagercontrol.cpp.o\x1b[0m\n'}
+[2.435482] (-) TimerEvent: {}
+[2.538344] (-) TimerEvent: {}
+[2.640156] (-) TimerEvent: {}
+[2.651438] (control_selector) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/gentleshaz/ros2_ws/l5/src/control_selector/src/dummy_control.cpp:1\x1b[m\x1b[K:\n'}
+[2.651848] (control_selector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gentleshaz/ros2_ws/l5/src/control_selector/src/dummy_control.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void DummyControl::setRobotPose(double, double, double)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.652021] (control_selector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gentleshaz/ros2_ws/l5/src/control_selector/src/dummy_control.h:11:30:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kx\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[2.652108] (control_selector) StderrLine: {'line': b'   11 |     void setRobotPose(\x1b[01;35m\x1b[Kdouble x\x1b[m\x1b[K, double y, double theta) override {}\n'}
+[2.652185] (control_selector) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K~~~~~~~^\x1b[m\x1b[K\n'}
+[2.652259] (control_selector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gentleshaz/ros2_ws/l5/src/control_selector/src/dummy_control.h:11:40:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ky\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[2.652386] (control_selector) StderrLine: {'line': b'   11 |     void setRobotPose(double x, \x1b[01;35m\x1b[Kdouble y\x1b[m\x1b[K, double theta) override {}\n'}
+[2.652480] (control_selector) StderrLine: {'line': b'      |                                 \x1b[01;35m\x1b[K~~~~~~~^\x1b[m\x1b[K\n'}
+[2.652556] (control_selector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gentleshaz/ros2_ws/l5/src/control_selector/src/dummy_control.h:11:50:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktheta\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[2.652634] (control_selector) StderrLine: {'line': b'   11 |     void setRobotPose(double x, double y, \x1b[01;35m\x1b[Kdouble theta\x1b[m\x1b[K) override {}\n'}
+[2.652709] (control_selector) StderrLine: {'line': b'      |                                           \x1b[01;35m\x1b[K~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[2.665098] (control_selector) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/gentleshaz/ros2_ws/l5/src/control_selector/src/voyagercontrol.cpp:1\x1b[m\x1b[K:\n'}
+[2.665351] (control_selector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gentleshaz/ros2_ws/l5/src/control_selector/src/voyagercontrol.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void VoyagerControl::setRobotPose(double, double, double)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.665523] (control_selector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gentleshaz/ros2_ws/l5/src/control_selector/src/voyagercontrol.h:19:30:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kx\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[2.665689] (control_selector) StderrLine: {'line': b'   19 |     void setRobotPose(\x1b[01;35m\x1b[Kdouble x\x1b[m\x1b[K, double y, double theta) override {}\n'}
+[2.665842] (control_selector) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K~~~~~~~^\x1b[m\x1b[K\n'}
+[2.666024] (control_selector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gentleshaz/ros2_ws/l5/src/control_selector/src/voyagercontrol.h:19:40:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ky\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[2.666167] (control_selector) StderrLine: {'line': b'   19 |     void setRobotPose(double x, \x1b[01;35m\x1b[Kdouble y\x1b[m\x1b[K, double theta) override {}\n'}
+[2.666303] (control_selector) StderrLine: {'line': b'      |                                 \x1b[01;35m\x1b[K~~~~~~~^\x1b[m\x1b[K\n'}
+[2.666465] (control_selector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gentleshaz/ros2_ws/l5/src/control_selector/src/voyagercontrol.h:19:50:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktheta\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[2.666604] (control_selector) StderrLine: {'line': b'   19 |     void setRobotPose(double x, double y, \x1b[01;35m\x1b[Kdouble theta\x1b[m\x1b[K) override {}\n'}
+[2.666738] (control_selector) StderrLine: {'line': b'      |                                           \x1b[01;35m\x1b[K~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[2.669838] (control_selector) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/gentleshaz/ros2_ws/l5/src/control_selector/src/wall_control.cpp:1\x1b[m\x1b[K:\n'}
+[2.669996] (control_selector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gentleshaz/ros2_ws/l5/src/control_selector/src/wall_control.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void WallControl::setRobotPose(double, double, double)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.670080] (control_selector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gentleshaz/ros2_ws/l5/src/control_selector/src/wall_control.h:32:30:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kx\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[2.670173] (control_selector) StderrLine: {'line': b'   32 |     void setRobotPose(\x1b[01;35m\x1b[Kdouble x\x1b[m\x1b[K, double y, double theta) override {}\n'}
+[2.670266] (control_selector) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K~~~~~~~^\x1b[m\x1b[K\n'}
+[2.670350] (control_selector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gentleshaz/ros2_ws/l5/src/control_selector/src/wall_control.h:32:40:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ky\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[2.670431] (control_selector) StderrLine: {'line': b'   32 |     void setRobotPose(double x, \x1b[01;35m\x1b[Kdouble y\x1b[m\x1b[K, double theta) override {}\n'}
+[2.670505] (control_selector) StderrLine: {'line': b'      |                                 \x1b[01;35m\x1b[K~~~~~~~^\x1b[m\x1b[K\n'}
+[2.670576] (control_selector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gentleshaz/ros2_ws/l5/src/control_selector/src/wall_control.h:32:50:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktheta\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[2.670648] (control_selector) StderrLine: {'line': b'   32 |     void setRobotPose(double x, double y, \x1b[01;35m\x1b[Kdouble theta\x1b[m\x1b[K) override {}\n'}
+[2.671580] (control_selector) StderrLine: {'line': b'      |                                           \x1b[01;35m\x1b[K~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[2.671758] (control_selector) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/gentleshaz/ros2_ws/l5/src/control_selector/src/wall_control.cpp:1\x1b[m\x1b[K:\n'}
+[2.671854] (control_selector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gentleshaz/ros2_ws/l5/src/control_selector/src/wall_control.h:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KWallControl::WallControl(double, double, double, double, double, double)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.671937] (control_selector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gentleshaz/ros2_ws/l5/src/control_selector/src/wall_control.h:13:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KWallControl::task_vel\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K-Wreorder\x1b[m\x1b[K]\n'}
+[2.672012] (control_selector) StderrLine: {'line': b'   13 |     double \x1b[01;35m\x1b[Ktask_vel\x1b[m\x1b[K;\n'}
+[2.672084] (control_selector) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.672157] (control_selector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gentleshaz/ros2_ws/l5/src/control_selector/src/wall_control.h:10:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kdouble WallControl::min_range_obstacle\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wreorder\x1b[m\x1b[K]\n'}
+[2.672230] (control_selector) StderrLine: {'line': b'   10 |     double \x1b[01;35m\x1b[Kmin_range_obstacle\x1b[m\x1b[K;\n'}
+[2.672301] (control_selector) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.672382] (control_selector) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/gentleshaz/ros2_ws/l5/src/control_selector/src/wall_control.cpp:1\x1b[m\x1b[K:\n'}
+[2.672454] (control_selector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gentleshaz/ros2_ws/l5/src/control_selector/src/wall_control.h:39:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K-Wreorder\x1b[m\x1b[K]\n'}
+[2.672525] (control_selector) StderrLine: {'line': b'   39 |     \x1b[01;35m\x1b[KWallControl\x1b[m\x1b[K(double range = 1.0, double task_vel = 1, double min_range_obstacle = 0.5, double prop_factor = 5.0, double int_factor = 0.001, double diff_factor = 14):\n'}
+[2.672597] (control_selector) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.700926] (simple_map) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[2.741701] (-) TimerEvent: {}
+[2.785152] (simple_map) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.786461] (simple_map) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.786806] (simple_map) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/gentleshaz/ros2_ws/l5/src/simple_map/include\n'}
+[2.786922] (simple_map) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.787945] (simple_map) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[2.788106] (simple_map) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[2.788828] (simple_map) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.790123] (simple_map) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.790255] (simple_map) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.790656] (simple_map) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.795582] (simple_map) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.816998] (simple_map) StdoutLine: {'line': b'-- Generating done\n'}
+[2.826082] (simple_map) StdoutLine: {'line': b'-- Build files have been written to: /home/gentleshaz/ros2_ws/l5/build/simple_map\n'}
+[2.838382] (simple_map) CommandEnded: {'returncode': 0}
+[2.839208] (simple_map) JobProgress: {'identifier': 'simple_map', 'progress': 'build'}
+[2.839539] (simple_map) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/gentleshaz/ros2_ws/l5/build/simple_map', '--', '-j4', '-l4'], 'cwd': '/home/gentleshaz/ros2_ws/l5/build/simple_map', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'gentleshaz'), ('SSH_AGENT_PID', '1351'), ('ROS_PACKAGE_PATH', '/opt/ros/noetic/share'), ('XDG_SESSION_TYPE', 'x11'), ('ROS_ETC_DIR', '/opt/ros/noetic/etc/ros'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/opt/ros/noetic/lib'), ('HOME', '/home/gentleshaz'), ('OLDPWD', '/home/gentleshaz'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1064'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'gentleshaz'), ('JOURNAL_STREAM', '8:246183'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/noetic/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gentleshaz'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/opt/ros/noetic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/gentleshaz-VirtualBox:@/tmp/.ICE-unix/24006,unix/gentleshaz-VirtualBox:/tmp/.ICE-unix/24006'), ('INVOCATION_ID', 'cc1cb2cc8859467da49a2d12610d7fe0'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/68c2f63a_3adc_450b_880b_beb05c64bd85'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'ru_RU.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.108'), ('ROS_ROOT', '/opt/ros/noetic/share/ros'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gentleshaz/ros2_ws/l5/build/simple_map'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages:/opt/ros/noetic/lib/python3/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy:/opt/ros/noetic')]), 'shell': False}
+[2.842582] (-) TimerEvent: {}
+[2.888245] (simple_map) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target scan_to_map\x1b[0m\n'}
+[2.939372] (simple_map) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/scan_to_map.dir/src/scan_to_map.cpp.o\x1b[0m\n'}
+[2.943626] (-) TimerEvent: {}
+[3.046059] (-) TimerEvent: {}
+[3.148933] (-) TimerEvent: {}
+[3.252576] (-) TimerEvent: {}
+[3.353551] (-) TimerEvent: {}
+[3.456951] (-) TimerEvent: {}
+[3.560713] (-) TimerEvent: {}
+[3.662971] (-) TimerEvent: {}
+[3.764158] (-) TimerEvent: {}
+[3.778275] (control_selector) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/gentleshaz/ros2_ws/l5/src/control_selector/src/control_selector_node.cpp:9\x1b[m\x1b[K:\n'}
+[3.778698] (control_selector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gentleshaz/ros2_ws/l5/src/control_selector/src/voyagercontrol.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void VoyagerControl::setRobotPose(double, double, double)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.778876] (control_selector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gentleshaz/ros2_ws/l5/src/control_selector/src/voyagercontrol.h:19:30:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kx\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[3.779070] (control_selector) StderrLine: {'line': b'   19 |     void setRobotPose(\x1b[01;35m\x1b[Kdouble x\x1b[m\x1b[K, double y, double theta) override {}\n'}
+[3.779222] (control_selector) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K~~~~~~~^\x1b[m\x1b[K\n'}
+[3.779334] (control_selector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gentleshaz/ros2_ws/l5/src/control_selector/src/voyagercontrol.h:19:40:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ky\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[3.779444] (control_selector) StderrLine: {'line': b'   19 |     void setRobotPose(double x, \x1b[01;35m\x1b[Kdouble y\x1b[m\x1b[K, double theta) override {}\n'}
+[3.779755] (control_selector) StderrLine: {'line': b'      |                                 \x1b[01;35m\x1b[K~~~~~~~^\x1b[m\x1b[K\n'}
+[3.779864] (control_selector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gentleshaz/ros2_ws/l5/src/control_selector/src/voyagercontrol.h:19:50:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktheta\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[3.779959] (control_selector) StderrLine: {'line': b'   19 |     void setRobotPose(double x, double y, \x1b[01;35m\x1b[Kdouble theta\x1b[m\x1b[K) override {}\n'}
+[3.780047] (control_selector) StderrLine: {'line': b'      |                                           \x1b[01;35m\x1b[K~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[3.780143] (control_selector) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/gentleshaz/ros2_ws/l5/src/control_selector/src/control_selector_node.cpp:10\x1b[m\x1b[K:\n'}
+[3.780234] (control_selector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gentleshaz/ros2_ws/l5/src/control_selector/src/dummy_control.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void DummyControl::setRobotPose(double, double, double)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.780323] (control_selector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gentleshaz/ros2_ws/l5/src/control_selector/src/dummy_control.h:11:30:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kx\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[3.780425] (control_selector) StderrLine: {'line': b'   11 |     void setRobotPose(\x1b[01;35m\x1b[Kdouble x\x1b[m\x1b[K, double y, double theta) override {}\n'}
+[3.780504] (control_selector) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K~~~~~~~^\x1b[m\x1b[K\n'}
+[3.780575] (control_selector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gentleshaz/ros2_ws/l5/src/control_selector/src/dummy_control.h:11:40:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ky\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[3.780654] (control_selector) StderrLine: {'line': b'   11 |     void setRobotPose(double x, \x1b[01;35m\x1b[Kdouble y\x1b[m\x1b[K, double theta) override {}\n'}
+[3.780725] (control_selector) StderrLine: {'line': b'      |                                 \x1b[01;35m\x1b[K~~~~~~~^\x1b[m\x1b[K\n'}
+[3.780794] (control_selector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gentleshaz/ros2_ws/l5/src/control_selector/src/dummy_control.h:11:50:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktheta\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[3.780865] (control_selector) StderrLine: {'line': b'   11 |     void setRobotPose(double x, double y, \x1b[01;35m\x1b[Kdouble theta\x1b[m\x1b[K) override {}\n'}
+[3.780934] (control_selector) StderrLine: {'line': b'      |                                           \x1b[01;35m\x1b[K~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[3.781010] (control_selector) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/gentleshaz/ros2_ws/l5/src/control_selector/src/control_selector_node.cpp:11\x1b[m\x1b[K:\n'}
+[3.781080] (control_selector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gentleshaz/ros2_ws/l5/src/control_selector/src/wall_control.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void WallControl::setRobotPose(double, double, double)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.781242] (control_selector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gentleshaz/ros2_ws/l5/src/control_selector/src/wall_control.h:32:30:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kx\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[3.781321] (control_selector) StderrLine: {'line': b'   32 |     void setRobotPose(\x1b[01;35m\x1b[Kdouble x\x1b[m\x1b[K, double y, double theta) override {}\n'}
+[3.781391] (control_selector) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K~~~~~~~^\x1b[m\x1b[K\n'}
+[3.781461] (control_selector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gentleshaz/ros2_ws/l5/src/control_selector/src/wall_control.h:32:40:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ky\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[3.781540] (control_selector) StderrLine: {'line': b'   32 |     void setRobotPose(double x, \x1b[01;35m\x1b[Kdouble y\x1b[m\x1b[K, double theta) override {}\n'}
+[3.781611] (control_selector) StderrLine: {'line': b'      |                                 \x1b[01;35m\x1b[K~~~~~~~^\x1b[m\x1b[K\n'}
+[3.781685] (control_selector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gentleshaz/ros2_ws/l5/src/control_selector/src/wall_control.h:32:50:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktheta\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[3.781757] (control_selector) StderrLine: {'line': b'   32 |     void setRobotPose(double x, double y, \x1b[01;35m\x1b[Kdouble theta\x1b[m\x1b[K) override {}\n'}
+[3.781827] (control_selector) StderrLine: {'line': b'      |                                           \x1b[01;35m\x1b[K~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[3.781897] (control_selector) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/gentleshaz/ros2_ws/l5/src/control_selector/src/control_selector_node.cpp:11\x1b[m\x1b[K:\n'}
+[3.781966] (control_selector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gentleshaz/ros2_ws/l5/src/control_selector/src/wall_control.h:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KWallControl::WallControl(double, double, double, double, double, double)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.782037] (control_selector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gentleshaz/ros2_ws/l5/src/control_selector/src/wall_control.h:13:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KWallControl::task_vel\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K-Wreorder\x1b[m\x1b[K]\n'}
+[3.782114] (control_selector) StderrLine: {'line': b'   13 |     double \x1b[01;35m\x1b[Ktask_vel\x1b[m\x1b[K;\n'}
+[3.782184] (control_selector) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.782253] (control_selector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gentleshaz/ros2_ws/l5/src/control_selector/src/wall_control.h:10:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kdouble WallControl::min_range_obstacle\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wreorder\x1b[m\x1b[K]\n'}
+[3.782323] (control_selector) StderrLine: {'line': b'   10 |     double \x1b[01;35m\x1b[Kmin_range_obstacle\x1b[m\x1b[K;\n'}
+[3.782392] (control_selector) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.782461] (control_selector) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/gentleshaz/ros2_ws/l5/src/control_selector/src/control_selector_node.cpp:11\x1b[m\x1b[K:\n'}
+[3.782530] (control_selector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gentleshaz/ros2_ws/l5/src/control_selector/src/wall_control.h:39:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K-Wreorder\x1b[m\x1b[K]\n'}
+[3.782605] (control_selector) StderrLine: {'line': b'   39 |     \x1b[01;35m\x1b[KWallControl\x1b[m\x1b[K(double range = 1.0, double task_vel = 1, double min_range_obstacle = 0.5, double prop_factor = 5.0, double int_factor = 0.001, double diff_factor = 14):\n'}
+[3.782680] (control_selector) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.864766] (-) TimerEvent: {}
+[3.968695] (-) TimerEvent: {}
+[4.078607] (-) TimerEvent: {}
+[4.145094] (simple_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gentleshaz/ros2_ws/l5/src/simple_map/src/scan_to_map.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid scan_to_map(const LaserScan&, nav_msgs::msg::OccupancyGrid&, const tf2::Transform&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.145384] (simple_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gentleshaz/ros2_ws/l5/src/simple_map/src/scan_to_map.cpp:19:25:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kx\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[4.145478] (simple_map) StderrLine: {'line': b'   19 |             std::size_t \x1b[01;35m\x1b[Kx\x1b[m\x1b[K = v.x() / map.info.resolution;\n'}
+[4.145553] (simple_map) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.145625] (simple_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gentleshaz/ros2_ws/l5/src/simple_map/src/scan_to_map.cpp:20:25:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Ky\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[4.145703] (simple_map) StderrLine: {'line': b'   20 |             std::size_t \x1b[01;35m\x1b[Ky\x1b[m\x1b[K = v.y() / map.info.resolution;\n'}
+[4.145774] (simple_map) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.179176] (-) TimerEvent: {}
+[4.281374] (-) TimerEvent: {}
+[4.385688] (-) TimerEvent: {}
+[4.486175] (-) TimerEvent: {}
+[4.505229] (simple_map) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX static library libscan_to_map.a\x1b[0m\n'}
+[4.542997] (simple_map) StdoutLine: {'line': b'[ 50%] Built target scan_to_map\n'}
+[4.554613] (simple_map) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target simple_map_node\x1b[0m\n'}
+[4.586755] (-) TimerEvent: {}
+[4.614916] (simple_map) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/simple_map_node.dir/src/simple_map_1.cpp.o\x1b[0m\n'}
+[4.687307] (-) TimerEvent: {}
+[4.788460] (-) TimerEvent: {}
+[4.892089] (-) TimerEvent: {}
+[4.993352] (-) TimerEvent: {}
+[5.096422] (-) TimerEvent: {}
+[5.200207] (-) TimerEvent: {}
+[5.301157] (-) TimerEvent: {}
+[5.401824] (-) TimerEvent: {}
+[5.503795] (-) TimerEvent: {}
+[5.607577] (-) TimerEvent: {}
+[5.709897] (-) TimerEvent: {}
+[5.811427] (-) TimerEvent: {}
+[5.912666] (-) TimerEvent: {}
+[6.013797] (-) TimerEvent: {}
+[6.115137] (-) TimerEvent: {}
+[6.215604] (-) TimerEvent: {}
+[6.318792] (-) TimerEvent: {}
+[6.419453] (-) TimerEvent: {}
+[6.520480] (-) TimerEvent: {}
+[6.620790] (-) TimerEvent: {}
+[6.722413] (-) TimerEvent: {}
+[6.823274] (-) TimerEvent: {}
+[6.937563] (-) TimerEvent: {}
+[7.042998] (-) TimerEvent: {}
+[7.144987] (-) TimerEvent: {}
+[7.246930] (-) TimerEvent: {}
+[7.348949] (-) TimerEvent: {}
+[7.460033] (-) TimerEvent: {}
+[7.564836] (-) TimerEvent: {}
+[7.666877] (-) TimerEvent: {}
+[7.767423] (-) TimerEvent: {}
+[7.869008] (-) TimerEvent: {}
+[7.970377] (-) TimerEvent: {}
+[8.070667] (-) TimerEvent: {}
+[8.171313] (-) TimerEvent: {}
+[8.271605] (-) TimerEvent: {}
+[8.371904] (-) TimerEvent: {}
+[8.472217] (-) TimerEvent: {}
+[8.572800] (-) TimerEvent: {}
+[8.675880] (-) TimerEvent: {}
+[8.776438] (-) TimerEvent: {}
+[8.877042] (-) TimerEvent: {}
+[8.977334] (-) TimerEvent: {}
+[9.077909] (-) TimerEvent: {}
+[9.179251] (-) TimerEvent: {}
+[9.282909] (-) TimerEvent: {}
+[9.383931] (-) TimerEvent: {}
+[9.501901] (-) TimerEvent: {}
+[9.602582] (-) TimerEvent: {}
+[9.703265] (-) TimerEvent: {}
+[9.819923] (-) TimerEvent: {}
+[9.923629] (-) TimerEvent: {}
+[10.024800] (-) TimerEvent: {}
+[10.139368] (-) TimerEvent: {}
+[10.244603] (-) TimerEvent: {}
+[10.314893] (simple_map) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable simple_map_node\x1b[0m\n'}
+[10.346290] (-) TimerEvent: {}
+[10.411281] (control_selector) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable control_selector_node\x1b[0m\n'}
+[10.446523] (-) TimerEvent: {}
+[10.547197] (-) TimerEvent: {}
+[10.655982] (-) TimerEvent: {}
+[10.719275] (simple_map) StdoutLine: {'line': b'[100%] Built target simple_map_node\n'}
+[10.732460] (simple_map) CommandEnded: {'returncode': 0}
+[10.734810] (simple_map) JobProgress: {'identifier': 'simple_map', 'progress': 'install'}
+[10.748036] (simple_map) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/gentleshaz/ros2_ws/l5/build/simple_map'], 'cwd': '/home/gentleshaz/ros2_ws/l5/build/simple_map', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'gentleshaz'), ('SSH_AGENT_PID', '1351'), ('ROS_PACKAGE_PATH', '/opt/ros/noetic/share'), ('XDG_SESSION_TYPE', 'x11'), ('ROS_ETC_DIR', '/opt/ros/noetic/etc/ros'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/opt/ros/noetic/lib'), ('HOME', '/home/gentleshaz'), ('OLDPWD', '/home/gentleshaz'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1064'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'gentleshaz'), ('JOURNAL_STREAM', '8:246183'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/noetic/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gentleshaz'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/opt/ros/noetic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/gentleshaz-VirtualBox:@/tmp/.ICE-unix/24006,unix/gentleshaz-VirtualBox:/tmp/.ICE-unix/24006'), ('INVOCATION_ID', 'cc1cb2cc8859467da49a2d12610d7fe0'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/68c2f63a_3adc_450b_880b_beb05c64bd85'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'ru_RU.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.108'), ('ROS_ROOT', '/opt/ros/noetic/share/ros'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gentleshaz/ros2_ws/l5/build/simple_map'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages:/opt/ros/noetic/lib/python3/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy:/opt/ros/noetic')]), 'shell': False}
+[10.756152] (-) TimerEvent: {}
+[10.757665] (simple_map) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.757981] (simple_map) StdoutLine: {'line': b'-- Installing: /home/gentleshaz/ros2_ws/l5/install/simple_map/lib/simple_map/libscan_to_map.a\n'}
+[10.758208] (simple_map) StdoutLine: {'line': b'-- Installing: /home/gentleshaz/ros2_ws/l5/install/simple_map/lib/simple_map/simple_map_node\n'}
+[10.761349] (simple_map) StdoutLine: {'line': b'-- Set runtime path of "/home/gentleshaz/ros2_ws/l5/install/simple_map/lib/simple_map/simple_map_node" to ""\n'}
+[10.761615] (simple_map) StdoutLine: {'line': b'-- Installing: /home/gentleshaz/ros2_ws/l5/install/simple_map/include\n'}
+[10.761791] (simple_map) StdoutLine: {'line': b'-- Installing: /home/gentleshaz/ros2_ws/l5/install/simple_map/include/simple_map\n'}
+[10.761951] (simple_map) StdoutLine: {'line': b'-- Installing: /home/gentleshaz/ros2_ws/l5/install/simple_map/include/simple_map/scan_to_map.h\n'}
+[10.762046] (simple_map) StdoutLine: {'line': b'-- Installing: /home/gentleshaz/ros2_ws/l5/install/simple_map/share/simple_map/launch\n'}
+[10.762204] (simple_map) StdoutLine: {'line': b'-- Installing: /home/gentleshaz/ros2_ws/l5/install/simple_map/share/simple_map/launch/map.launch.xml\n'}
+[10.764074] (simple_map) StdoutLine: {'line': b'-- Installing: /home/gentleshaz/ros2_ws/l5/install/simple_map/share/ament_index/resource_index/package_run_dependencies/simple_map\n'}
+[10.764442] (simple_map) StdoutLine: {'line': b'-- Installing: /home/gentleshaz/ros2_ws/l5/install/simple_map/share/ament_index/resource_index/parent_prefix_path/simple_map\n'}
+[10.764673] (simple_map) StdoutLine: {'line': b'-- Installing: /home/gentleshaz/ros2_ws/l5/install/simple_map/share/simple_map/environment/ament_prefix_path.sh\n'}
+[10.764897] (simple_map) StdoutLine: {'line': b'-- Installing: /home/gentleshaz/ros2_ws/l5/install/simple_map/share/simple_map/environment/ament_prefix_path.dsv\n'}
+[10.765142] (simple_map) StdoutLine: {'line': b'-- Installing: /home/gentleshaz/ros2_ws/l5/install/simple_map/share/simple_map/environment/path.sh\n'}
+[10.765371] (simple_map) StdoutLine: {'line': b'-- Installing: /home/gentleshaz/ros2_ws/l5/install/simple_map/share/simple_map/environment/path.dsv\n'}
+[10.765468] (simple_map) StdoutLine: {'line': b'-- Installing: /home/gentleshaz/ros2_ws/l5/install/simple_map/share/simple_map/local_setup.bash\n'}
+[10.765625] (simple_map) StdoutLine: {'line': b'-- Installing: /home/gentleshaz/ros2_ws/l5/install/simple_map/share/simple_map/local_setup.sh\n'}
+[10.765828] (simple_map) StdoutLine: {'line': b'-- Installing: /home/gentleshaz/ros2_ws/l5/install/simple_map/share/simple_map/local_setup.zsh\n'}
+[10.766066] (simple_map) StdoutLine: {'line': b'-- Installing: /home/gentleshaz/ros2_ws/l5/install/simple_map/share/simple_map/local_setup.dsv\n'}
+[10.766232] (simple_map) StdoutLine: {'line': b'-- Installing: /home/gentleshaz/ros2_ws/l5/install/simple_map/share/simple_map/package.dsv\n'}
+[10.766436] (simple_map) StdoutLine: {'line': b'-- Installing: /home/gentleshaz/ros2_ws/l5/install/simple_map/share/ament_index/resource_index/packages/simple_map\n'}
+[10.766587] (simple_map) StdoutLine: {'line': b'-- Installing: /home/gentleshaz/ros2_ws/l5/install/simple_map/share/simple_map/cmake/simple_mapConfig.cmake\n'}
+[10.766798] (simple_map) StdoutLine: {'line': b'-- Installing: /home/gentleshaz/ros2_ws/l5/install/simple_map/share/simple_map/cmake/simple_mapConfig-version.cmake\n'}
+[10.766978] (simple_map) StdoutLine: {'line': b'-- Installing: /home/gentleshaz/ros2_ws/l5/install/simple_map/share/simple_map/package.xml\n'}
+[10.769619] (simple_map) CommandEnded: {'returncode': 0}
+[10.795779] (simple_map) JobEnded: {'identifier': 'simple_map', 'rc': 0}
+[10.856724] (-) TimerEvent: {}
+[10.868877] (control_selector) StdoutLine: {'line': b'[100%] Built target control_selector_node\n'}
+[10.883190] (control_selector) CommandEnded: {'returncode': 0}
+[10.884311] (control_selector) JobProgress: {'identifier': 'control_selector', 'progress': 'install'}
+[10.886290] (control_selector) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/gentleshaz/ros2_ws/l5/build/control_selector'], 'cwd': '/home/gentleshaz/ros2_ws/l5/build/control_selector', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'gentleshaz'), ('SSH_AGENT_PID', '1351'), ('ROS_PACKAGE_PATH', '/opt/ros/noetic/share'), ('XDG_SESSION_TYPE', 'x11'), ('ROS_ETC_DIR', '/opt/ros/noetic/etc/ros'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/opt/ros/noetic/lib'), ('HOME', '/home/gentleshaz'), ('OLDPWD', '/home/gentleshaz'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1064'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'gentleshaz'), ('JOURNAL_STREAM', '8:246183'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/noetic/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gentleshaz'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/opt/ros/noetic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/gentleshaz-VirtualBox:@/tmp/.ICE-unix/24006,unix/gentleshaz-VirtualBox:/tmp/.ICE-unix/24006'), ('INVOCATION_ID', 'cc1cb2cc8859467da49a2d12610d7fe0'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/68c2f63a_3adc_450b_880b_beb05c64bd85'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'ru_RU.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.108'), ('ROS_ROOT', '/opt/ros/noetic/share/ros'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gentleshaz/ros2_ws/l5/build/control_selector'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages:/opt/ros/noetic/lib/python3/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy:/opt/ros/noetic')]), 'shell': False}
+[10.895472] (control_selector) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.895718] (control_selector) StdoutLine: {'line': b'-- Installing: /home/gentleshaz/ros2_ws/l5/install/control_selector/lib/control_selector/control_selector_node\n'}
+[10.900837] (control_selector) StdoutLine: {'line': b'-- Set runtime path of "/home/gentleshaz/ros2_ws/l5/install/control_selector/lib/control_selector/control_selector_node" to ""\n'}
+[10.901061] (control_selector) StdoutLine: {'line': b'-- Installing: /home/gentleshaz/ros2_ws/l5/install/control_selector/share/control_selector/launch\n'}
+[10.901185] (control_selector) StdoutLine: {'line': b'-- Installing: /home/gentleshaz/ros2_ws/l5/install/control_selector/share/control_selector/launch/selector.launch.xml\n'}
+[10.903652] (control_selector) StdoutLine: {'line': b'-- Installing: /home/gentleshaz/ros2_ws/l5/install/control_selector/share/control_selector/launch/selector.launch.xml:Zone.Identifier\n'}
+[10.904075] (control_selector) StdoutLine: {'line': b'-- Installing: /home/gentleshaz/ros2_ws/l5/install/control_selector/share/ament_index/resource_index/package_run_dependencies/control_selector\n'}
+[10.904423] (control_selector) StdoutLine: {'line': b'-- Installing: /home/gentleshaz/ros2_ws/l5/install/control_selector/share/ament_index/resource_index/parent_prefix_path/control_selector\n'}
+[10.904772] (control_selector) StdoutLine: {'line': b'-- Installing: /home/gentleshaz/ros2_ws/l5/install/control_selector/share/control_selector/environment/ament_prefix_path.sh\n'}
+[10.904970] (control_selector) StdoutLine: {'line': b'-- Installing: /home/gentleshaz/ros2_ws/l5/install/control_selector/share/control_selector/environment/ament_prefix_path.dsv\n'}
+[10.905210] (control_selector) StdoutLine: {'line': b'-- Installing: /home/gentleshaz/ros2_ws/l5/install/control_selector/share/control_selector/environment/path.sh\n'}
+[10.905381] (control_selector) StdoutLine: {'line': b'-- Installing: /home/gentleshaz/ros2_ws/l5/install/control_selector/share/control_selector/environment/path.dsv\n'}
+[10.905538] (control_selector) StdoutLine: {'line': b'-- Installing: /home/gentleshaz/ros2_ws/l5/install/control_selector/share/control_selector/local_setup.bash\n'}
+[10.905770] (control_selector) StdoutLine: {'line': b'-- Installing: /home/gentleshaz/ros2_ws/l5/install/control_selector/share/control_selector/local_setup.sh\n'}
+[10.905930] (control_selector) StdoutLine: {'line': b'-- Installing: /home/gentleshaz/ros2_ws/l5/install/control_selector/share/control_selector/local_setup.zsh\n'}
+[10.906093] (control_selector) StdoutLine: {'line': b'-- Installing: /home/gentleshaz/ros2_ws/l5/install/control_selector/share/control_selector/local_setup.dsv\n'}
+[10.906331] (control_selector) StdoutLine: {'line': b'-- Installing: /home/gentleshaz/ros2_ws/l5/install/control_selector/share/control_selector/package.dsv\n'}
+[10.906537] (control_selector) StdoutLine: {'line': b'-- Installing: /home/gentleshaz/ros2_ws/l5/install/control_selector/share/ament_index/resource_index/packages/control_selector\n'}
+[10.906738] (control_selector) StdoutLine: {'line': b'-- Installing: /home/gentleshaz/ros2_ws/l5/install/control_selector/share/control_selector/cmake/control_selectorConfig.cmake\n'}
+[10.906926] (control_selector) StdoutLine: {'line': b'-- Installing: /home/gentleshaz/ros2_ws/l5/install/control_selector/share/control_selector/cmake/control_selectorConfig-version.cmake\n'}
+[10.907103] (control_selector) StdoutLine: {'line': b'-- Installing: /home/gentleshaz/ros2_ws/l5/install/control_selector/share/control_selector/package.xml\n'}
+[10.910401] (control_selector) CommandEnded: {'returncode': 0}
+[10.923178] (control_selector) JobEnded: {'identifier': 'control_selector', 'rc': 0}
+[10.924121] (-) EventReactorShutdown: {}

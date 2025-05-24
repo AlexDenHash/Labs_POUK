@@ -1,0 +1,2 @@
+/usr/bin/ar qc libscan_to_map.a  CMakeFiles/scan_to_map.dir/src/scan_to_map.cpp.o
+/usr/bin/ranlib libscan_to_map.a

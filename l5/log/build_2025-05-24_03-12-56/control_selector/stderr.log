@@ -1,0 +1,90 @@
+In file included from [01m[K/home/gentleshaz/ros2_ws/l5/src/control_selector/src/dummy_control.cpp:1[m[K:
+[01m[K/home/gentleshaz/ros2_ws/l5/src/control_selector/src/dummy_control.h:[m[K In member function ‘[01m[Kvirtual void DummyControl::setRobotPose(double, double, double)[m[K’:
+[01m[K/home/gentleshaz/ros2_ws/l5/src/control_selector/src/dummy_control.h:11:30:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   11 |     void setRobotPose([01;35m[Kdouble x[m[K, double y, double theta) override {}
+      |                       [01;35m[K~~~~~~~^[m[K
+[01m[K/home/gentleshaz/ros2_ws/l5/src/control_selector/src/dummy_control.h:11:40:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ky[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   11 |     void setRobotPose(double x, [01;35m[Kdouble y[m[K, double theta) override {}
+      |                                 [01;35m[K~~~~~~~^[m[K
+[01m[K/home/gentleshaz/ros2_ws/l5/src/control_selector/src/dummy_control.h:11:50:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktheta[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   11 |     void setRobotPose(double x, double y, [01;35m[Kdouble theta[m[K) override {}
+      |                                           [01;35m[K~~~~~~~^~~~~[m[K
+In file included from [01m[K/home/gentleshaz/ros2_ws/l5/src/control_selector/src/voyagercontrol.cpp:1[m[K:
+[01m[K/home/gentleshaz/ros2_ws/l5/src/control_selector/src/voyagercontrol.h:[m[K In member function ‘[01m[Kvirtual void VoyagerControl::setRobotPose(double, double, double)[m[K’:
+[01m[K/home/gentleshaz/ros2_ws/l5/src/control_selector/src/voyagercontrol.h:19:30:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   19 |     void setRobotPose([01;35m[Kdouble x[m[K, double y, double theta) override {}
+      |                       [01;35m[K~~~~~~~^[m[K
+[01m[K/home/gentleshaz/ros2_ws/l5/src/control_selector/src/voyagercontrol.h:19:40:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ky[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   19 |     void setRobotPose(double x, [01;35m[Kdouble y[m[K, double theta) override {}
+      |                                 [01;35m[K~~~~~~~^[m[K
+[01m[K/home/gentleshaz/ros2_ws/l5/src/control_selector/src/voyagercontrol.h:19:50:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktheta[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   19 |     void setRobotPose(double x, double y, [01;35m[Kdouble theta[m[K) override {}
+      |                                           [01;35m[K~~~~~~~^~~~~[m[K
+In file included from [01m[K/home/gentleshaz/ros2_ws/l5/src/control_selector/src/wall_control.cpp:1[m[K:
+[01m[K/home/gentleshaz/ros2_ws/l5/src/control_selector/src/wall_control.h:[m[K In member function ‘[01m[Kvirtual void WallControl::setRobotPose(double, double, double)[m[K’:
+[01m[K/home/gentleshaz/ros2_ws/l5/src/control_selector/src/wall_control.h:32:30:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   32 |     void setRobotPose([01;35m[Kdouble x[m[K, double y, double theta) override {}
+      |                       [01;35m[K~~~~~~~^[m[K
+[01m[K/home/gentleshaz/ros2_ws/l5/src/control_selector/src/wall_control.h:32:40:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ky[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   32 |     void setRobotPose(double x, [01;35m[Kdouble y[m[K, double theta) override {}
+      |                                 [01;35m[K~~~~~~~^[m[K
+[01m[K/home/gentleshaz/ros2_ws/l5/src/control_selector/src/wall_control.h:32:50:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktheta[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   32 |     void setRobotPose(double x, double y, [01;35m[Kdouble theta[m[K) override {}
+      |                                           [01;35m[K~~~~~~~^~~~~[m[K
+In file included from [01m[K/home/gentleshaz/ros2_ws/l5/src/control_selector/src/wall_control.cpp:1[m[K:
+[01m[K/home/gentleshaz/ros2_ws/l5/src/control_selector/src/wall_control.h:[m[K In constructor ‘[01m[KWallControl::WallControl(double, double, double, double, double, double)[m[K’:
+[01m[K/home/gentleshaz/ros2_ws/l5/src/control_selector/src/wall_control.h:13:12:[m[K [01;35m[Kwarning: [m[K‘[01m[KWallControl::task_vel[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+   13 |     double [01;35m[Ktask_vel[m[K;
+      |            [01;35m[K^~~~~~~~[m[K
+[01m[K/home/gentleshaz/ros2_ws/l5/src/control_selector/src/wall_control.h:10:12:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kdouble WallControl::min_range_obstacle[m[K’ [[01;35m[K-Wreorder[m[K]
+   10 |     double [01;35m[Kmin_range_obstacle[m[K;
+      |            [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/gentleshaz/ros2_ws/l5/src/control_selector/src/wall_control.cpp:1[m[K:
+[01m[K/home/gentleshaz/ros2_ws/l5/src/control_selector/src/wall_control.h:39:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+   39 |     [01;35m[KWallControl[m[K(double range = 1.0, double task_vel = 1, double min_range_obstacle = 0.5, double prop_factor = 5.0, double int_factor = 0.001, double diff_factor = 14):
+      |     [01;35m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/gentleshaz/ros2_ws/l5/src/control_selector/src/control_selector_node.cpp:9[m[K:
+[01m[K/home/gentleshaz/ros2_ws/l5/src/control_selector/src/voyagercontrol.h:[m[K In member function ‘[01m[Kvirtual void VoyagerControl::setRobotPose(double, double, double)[m[K’:
+[01m[K/home/gentleshaz/ros2_ws/l5/src/control_selector/src/voyagercontrol.h:19:30:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   19 |     void setRobotPose([01;35m[Kdouble x[m[K, double y, double theta) override {}
+      |                       [01;35m[K~~~~~~~^[m[K
+[01m[K/home/gentleshaz/ros2_ws/l5/src/control_selector/src/voyagercontrol.h:19:40:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ky[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   19 |     void setRobotPose(double x, [01;35m[Kdouble y[m[K, double theta) override {}
+      |                                 [01;35m[K~~~~~~~^[m[K
+[01m[K/home/gentleshaz/ros2_ws/l5/src/control_selector/src/voyagercontrol.h:19:50:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktheta[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   19 |     void setRobotPose(double x, double y, [01;35m[Kdouble theta[m[K) override {}
+      |                                           [01;35m[K~~~~~~~^~~~~[m[K
+In file included from [01m[K/home/gentleshaz/ros2_ws/l5/src/control_selector/src/control_selector_node.cpp:10[m[K:
+[01m[K/home/gentleshaz/ros2_ws/l5/src/control_selector/src/dummy_control.h:[m[K In member function ‘[01m[Kvirtual void DummyControl::setRobotPose(double, double, double)[m[K’:
+[01m[K/home/gentleshaz/ros2_ws/l5/src/control_selector/src/dummy_control.h:11:30:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   11 |     void setRobotPose([01;35m[Kdouble x[m[K, double y, double theta) override {}
+      |                       [01;35m[K~~~~~~~^[m[K
+[01m[K/home/gentleshaz/ros2_ws/l5/src/control_selector/src/dummy_control.h:11:40:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ky[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   11 |     void setRobotPose(double x, [01;35m[Kdouble y[m[K, double theta) override {}
+      |                                 [01;35m[K~~~~~~~^[m[K
+[01m[K/home/gentleshaz/ros2_ws/l5/src/control_selector/src/dummy_control.h:11:50:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktheta[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   11 |     void setRobotPose(double x, double y, [01;35m[Kdouble theta[m[K) override {}
+      |                                           [01;35m[K~~~~~~~^~~~~[m[K
+In file included from [01m[K/home/gentleshaz/ros2_ws/l5/src/control_selector/src/control_selector_node.cpp:11[m[K:
+[01m[K/home/gentleshaz/ros2_ws/l5/src/control_selector/src/wall_control.h:[m[K In member function ‘[01m[Kvirtual void WallControl::setRobotPose(double, double, double)[m[K’:
+[01m[K/home/gentleshaz/ros2_ws/l5/src/control_selector/src/wall_control.h:32:30:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   32 |     void setRobotPose([01;35m[Kdouble x[m[K, double y, double theta) override {}
+      |                       [01;35m[K~~~~~~~^[m[K
+[01m[K/home/gentleshaz/ros2_ws/l5/src/control_selector/src/wall_control.h:32:40:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ky[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   32 |     void setRobotPose(double x, [01;35m[Kdouble y[m[K, double theta) override {}
+      |                                 [01;35m[K~~~~~~~^[m[K
+[01m[K/home/gentleshaz/ros2_ws/l5/src/control_selector/src/wall_control.h:32:50:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktheta[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   32 |     void setRobotPose(double x, double y, [01;35m[Kdouble theta[m[K) override {}
+      |                                           [01;35m[K~~~~~~~^~~~~[m[K
+In file included from [01m[K/home/gentleshaz/ros2_ws/l5/src/control_selector/src/control_selector_node.cpp:11[m[K:
+[01m[K/home/gentleshaz/ros2_ws/l5/src/control_selector/src/wall_control.h:[m[K In constructor ‘[01m[KWallControl::WallControl(double, double, double, double, double, double)[m[K’:
+[01m[K/home/gentleshaz/ros2_ws/l5/src/control_selector/src/wall_control.h:13:12:[m[K [01;35m[Kwarning: [m[K‘[01m[KWallControl::task_vel[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+   13 |     double [01;35m[Ktask_vel[m[K;
+      |            [01;35m[K^~~~~~~~[m[K
+[01m[K/home/gentleshaz/ros2_ws/l5/src/control_selector/src/wall_control.h:10:12:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kdouble WallControl::min_range_obstacle[m[K’ [[01;35m[K-Wreorder[m[K]
+   10 |     double [01;35m[Kmin_range_obstacle[m[K;
+      |            [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/gentleshaz/ros2_ws/l5/src/control_selector/src/control_selector_node.cpp:11[m[K:
+[01m[K/home/gentleshaz/ros2_ws/l5/src/control_selector/src/wall_control.h:39:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+   39 |     [01;35m[KWallControl[m[K(double range = 1.0, double task_vel = 1, double min_range_obstacle = 0.5, double prop_factor = 5.0, double int_factor = 0.001, double diff_factor = 14):
+      |     [01;35m[K^~~~~~~~~~~[m[K

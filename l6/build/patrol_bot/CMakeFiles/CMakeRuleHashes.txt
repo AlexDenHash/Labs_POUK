@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+8c6397db2d955e32a6fd5368c7b2806f CMakeFiles/patrol_bot_uninstall

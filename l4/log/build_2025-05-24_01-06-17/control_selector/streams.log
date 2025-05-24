@@ -1,0 +1,174 @@
+[0.021s] Invoking command in '/home/gentleshaz/ros2_ws/l4/build/control_selector': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/gentleshaz/ros2_ws/l4/src/control_selector -DCMAKE_INSTALL_PREFIX=/home/gentleshaz/ros2_ws/l4/install/control_selector
+[0.096s] -- The C compiler identification is GNU 9.4.0
+[0.158s] -- The CXX compiler identification is GNU 9.4.0
+[0.163s] -- Check for working C compiler: /usr/bin/cc
+[0.235s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.236s] -- Detecting C compiler ABI info
+[0.312s] -- Detecting C compiler ABI info - done
+[0.325s] -- Detecting C compile features
+[0.325s] -- Detecting C compile features - done
+[0.328s] -- Check for working CXX compiler: /usr/bin/c++
+[0.415s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.418s] -- Detecting CXX compiler ABI info
+[0.507s] -- Detecting CXX compiler ABI info - done
+[0.520s] -- Detecting CXX compile features
+[0.521s] -- Detecting CXX compile features - done
+[0.522s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.547s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.547s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.794s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.838s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.844s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.948s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.983s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.067s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.127s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.128s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.129s] -- Looking for pthread.h
+[1.210s] -- Looking for pthread.h - found
+[1.210s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.293s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.293s] -- Looking for pthread_create in pthreads
+[1.357s] -- Looking for pthread_create in pthreads - not found
+[1.357s] -- Looking for pthread_create in pthread
+[1.433s] -- Looking for pthread_create in pthread - found
+[1.434s] -- Found Threads: TRUE  
+[1.616s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[1.659s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[1.745s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[1.829s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.912s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.913s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.913s] -- Configured cppcheck include dirs: 
+[1.913s] -- Configured cppcheck exclude dirs and/or files: 
+[1.914s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.915s] -- Configured cpplint exclude dirs and/or files: 
+[1.915s] -- Added test 'lint_cmake' to check CMake code style
+[1.917s] -- Added test 'uncrustify' to check C / C++ code style
+[1.917s] -- Configured uncrustify additional arguments: 
+[1.917s] -- Added test 'xmllint' to check XML markup files
+[1.921s] -- Configuring done
+[1.933s] -- Generating done
+[1.939s] -- Build files have been written to: /home/gentleshaz/ros2_ws/l4/build/control_selector
+[1.949s] Invoked command in '/home/gentleshaz/ros2_ws/l4/build/control_selector' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/gentleshaz/ros2_ws/l4/src/control_selector -DCMAKE_INSTALL_PREFIX=/home/gentleshaz/ros2_ws/l4/install/control_selector
+[1.952s] Invoking command in '/home/gentleshaz/ros2_ws/l4/build/control_selector': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/gentleshaz/ros2_ws/l4/build/control_selector -- -j4 -l4
+[1.999s] [35m[1mScanning dependencies of target control_selector_node[0m
+[2.050s] [ 20%] [32mBuilding CXX object CMakeFiles/control_selector_node.dir/src/dummy_control.cpp.o[0m
+[2.051s] [ 40%] [32mBuilding CXX object CMakeFiles/control_selector_node.dir/src/control_selector_node.cpp.o[0m
+[2.054s] [ 60%] [32mBuilding CXX object CMakeFiles/control_selector_node.dir/src/voyagercontrol.cpp.o[0m
+[2.059s] [ 80%] [32mBuilding CXX object CMakeFiles/control_selector_node.dir/src/wall_control.cpp.o[0m
+[2.283s] In file included from [01m[K/home/gentleshaz/ros2_ws/l4/src/control_selector/src/dummy_control.cpp:1[m[K:
+[2.283s] [01m[K/home/gentleshaz/ros2_ws/l4/src/control_selector/src/dummy_control.h:[m[K In member function ‘[01m[Kvirtual void DummyControl::setRobotPose(double, double, double)[m[K’:
+[2.284s] [01m[K/home/gentleshaz/ros2_ws/l4/src/control_selector/src/dummy_control.h:11:30:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.284s]    11 |     void setRobotPose([01;35m[Kdouble x[m[K, double y, double theta) override {}
+[2.284s]       |                       [01;35m[K~~~~~~~^[m[K
+[2.285s] [01m[K/home/gentleshaz/ros2_ws/l4/src/control_selector/src/dummy_control.h:11:40:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ky[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.285s]    11 |     void setRobotPose(double x, [01;35m[Kdouble y[m[K, double theta) override {}
+[2.285s]       |                                 [01;35m[K~~~~~~~^[m[K
+[2.286s] [01m[K/home/gentleshaz/ros2_ws/l4/src/control_selector/src/dummy_control.h:11:50:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktheta[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.286s]    11 |     void setRobotPose(double x, double y, [01;35m[Kdouble theta[m[K) override {}
+[2.286s]       |                                           [01;35m[K~~~~~~~^~~~~[m[K
+[2.289s] In file included from [01m[K/home/gentleshaz/ros2_ws/l4/src/control_selector/src/voyagercontrol.cpp:1[m[K:
+[2.289s] [01m[K/home/gentleshaz/ros2_ws/l4/src/control_selector/src/voyagercontrol.h:[m[K In member function ‘[01m[Kvirtual void VoyagerControl::setRobotPose(double, double, double)[m[K’:
+[2.289s] [01m[K/home/gentleshaz/ros2_ws/l4/src/control_selector/src/voyagercontrol.h:19:30:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.289s]    19 |     void setRobotPose([01;35m[Kdouble x[m[K, double y, double theta) override {}
+[2.289s]       |                       [01;35m[K~~~~~~~^[m[K
+[2.289s] [01m[K/home/gentleshaz/ros2_ws/l4/src/control_selector/src/voyagercontrol.h:19:40:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ky[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.289s]    19 |     void setRobotPose(double x, [01;35m[Kdouble y[m[K, double theta) override {}
+[2.289s]       |                                 [01;35m[K~~~~~~~^[m[K
+[2.289s] [01m[K/home/gentleshaz/ros2_ws/l4/src/control_selector/src/voyagercontrol.h:19:50:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktheta[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.290s]    19 |     void setRobotPose(double x, double y, [01;35m[Kdouble theta[m[K) override {}
+[2.290s]       |                                           [01;35m[K~~~~~~~^~~~~[m[K
+[2.482s] In file included from [01m[K/home/gentleshaz/ros2_ws/l4/src/control_selector/src/wall_control.cpp:1[m[K:
+[2.482s] [01m[K/home/gentleshaz/ros2_ws/l4/src/control_selector/src/wall_control.h:[m[K In member function ‘[01m[Kvirtual void WallControl::setRobotPose(double, double, double)[m[K’:
+[2.482s] [01m[K/home/gentleshaz/ros2_ws/l4/src/control_selector/src/wall_control.h:32:30:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.482s]    32 |     void setRobotPose([01;35m[Kdouble x[m[K, double y, double theta) override {}
+[2.482s]       |                       [01;35m[K~~~~~~~^[m[K
+[2.483s] [01m[K/home/gentleshaz/ros2_ws/l4/src/control_selector/src/wall_control.h:32:40:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ky[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.483s]    32 |     void setRobotPose(double x, [01;35m[Kdouble y[m[K, double theta) override {}
+[2.483s]       |                                 [01;35m[K~~~~~~~^[m[K
+[2.483s] [01m[K/home/gentleshaz/ros2_ws/l4/src/control_selector/src/wall_control.h:32:50:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktheta[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.483s]    32 |     void setRobotPose(double x, double y, [01;35m[Kdouble theta[m[K) override {}
+[2.483s]       |                                           [01;35m[K~~~~~~~^~~~~[m[K
+[2.484s] In file included from [01m[K/home/gentleshaz/ros2_ws/l4/src/control_selector/src/wall_control.cpp:1[m[K:
+[2.484s] [01m[K/home/gentleshaz/ros2_ws/l4/src/control_selector/src/wall_control.h:[m[K In constructor ‘[01m[KWallControl::WallControl(double, double, double, double, double, double)[m[K’:
+[2.484s] [01m[K/home/gentleshaz/ros2_ws/l4/src/control_selector/src/wall_control.h:13:12:[m[K [01;35m[Kwarning: [m[K‘[01m[KWallControl::task_vel[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+[2.484s]    13 |     double [01;35m[Ktask_vel[m[K;
+[2.484s]       |            [01;35m[K^~~~~~~~[m[K
+[2.484s] [01m[K/home/gentleshaz/ros2_ws/l4/src/control_selector/src/wall_control.h:10:12:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kdouble WallControl::min_range_obstacle[m[K’ [[01;35m[K-Wreorder[m[K]
+[2.485s]    10 |     double [01;35m[Kmin_range_obstacle[m[K;
+[2.485s]       |            [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[2.485s] In file included from [01m[K/home/gentleshaz/ros2_ws/l4/src/control_selector/src/wall_control.cpp:1[m[K:
+[2.485s] [01m[K/home/gentleshaz/ros2_ws/l4/src/control_selector/src/wall_control.h:39:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+[2.485s]    39 |     [01;35m[KWallControl[m[K(double range = 1.0, double task_vel = 1, double min_range_obstacle = 0.5, double prop_factor = 5.0, double int_factor = 0.001, double diff_factor = 14):
+[2.485s]       |     [01;35m[K^~~~~~~~~~~[m[K
+[3.332s] In file included from [01m[K/home/gentleshaz/ros2_ws/l4/src/control_selector/src/control_selector_node.cpp:9[m[K:
+[3.332s] [01m[K/home/gentleshaz/ros2_ws/l4/src/control_selector/src/voyagercontrol.h:[m[K In member function ‘[01m[Kvirtual void VoyagerControl::setRobotPose(double, double, double)[m[K’:
+[3.332s] [01m[K/home/gentleshaz/ros2_ws/l4/src/control_selector/src/voyagercontrol.h:19:30:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.332s]    19 |     void setRobotPose([01;35m[Kdouble x[m[K, double y, double theta) override {}
+[3.332s]       |                       [01;35m[K~~~~~~~^[m[K
+[3.332s] [01m[K/home/gentleshaz/ros2_ws/l4/src/control_selector/src/voyagercontrol.h:19:40:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ky[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.332s]    19 |     void setRobotPose(double x, [01;35m[Kdouble y[m[K, double theta) override {}
+[3.332s]       |                                 [01;35m[K~~~~~~~^[m[K
+[3.333s] [01m[K/home/gentleshaz/ros2_ws/l4/src/control_selector/src/voyagercontrol.h:19:50:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktheta[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.333s]    19 |     void setRobotPose(double x, double y, [01;35m[Kdouble theta[m[K) override {}
+[3.333s]       |                                           [01;35m[K~~~~~~~^~~~~[m[K
+[3.333s] In file included from [01m[K/home/gentleshaz/ros2_ws/l4/src/control_selector/src/control_selector_node.cpp:10[m[K:
+[3.333s] [01m[K/home/gentleshaz/ros2_ws/l4/src/control_selector/src/dummy_control.h:[m[K In member function ‘[01m[Kvirtual void DummyControl::setRobotPose(double, double, double)[m[K’:
+[3.333s] [01m[K/home/gentleshaz/ros2_ws/l4/src/control_selector/src/dummy_control.h:11:30:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.333s]    11 |     void setRobotPose([01;35m[Kdouble x[m[K, double y, double theta) override {}
+[3.333s]       |                       [01;35m[K~~~~~~~^[m[K
+[3.334s] [01m[K/home/gentleshaz/ros2_ws/l4/src/control_selector/src/dummy_control.h:11:40:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ky[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.334s]    11 |     void setRobotPose(double x, [01;35m[Kdouble y[m[K, double theta) override {}
+[3.334s]       |                                 [01;35m[K~~~~~~~^[m[K
+[3.334s] [01m[K/home/gentleshaz/ros2_ws/l4/src/control_selector/src/dummy_control.h:11:50:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktheta[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.334s]    11 |     void setRobotPose(double x, double y, [01;35m[Kdouble theta[m[K) override {}
+[3.334s]       |                                           [01;35m[K~~~~~~~^~~~~[m[K
+[3.334s] In file included from [01m[K/home/gentleshaz/ros2_ws/l4/src/control_selector/src/control_selector_node.cpp:11[m[K:
+[3.334s] [01m[K/home/gentleshaz/ros2_ws/l4/src/control_selector/src/wall_control.h:[m[K In member function ‘[01m[Kvirtual void WallControl::setRobotPose(double, double, double)[m[K’:
+[3.334s] [01m[K/home/gentleshaz/ros2_ws/l4/src/control_selector/src/wall_control.h:32:30:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.334s]    32 |     void setRobotPose([01;35m[Kdouble x[m[K, double y, double theta) override {}
+[3.334s]       |                       [01;35m[K~~~~~~~^[m[K
+[3.334s] [01m[K/home/gentleshaz/ros2_ws/l4/src/control_selector/src/wall_control.h:32:40:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ky[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.334s]    32 |     void setRobotPose(double x, [01;35m[Kdouble y[m[K, double theta) override {}
+[3.334s]       |                                 [01;35m[K~~~~~~~^[m[K
+[3.335s] [01m[K/home/gentleshaz/ros2_ws/l4/src/control_selector/src/wall_control.h:32:50:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktheta[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.335s]    32 |     void setRobotPose(double x, double y, [01;35m[Kdouble theta[m[K) override {}
+[3.335s]       |                                           [01;35m[K~~~~~~~^~~~~[m[K
+[3.335s] In file included from [01m[K/home/gentleshaz/ros2_ws/l4/src/control_selector/src/control_selector_node.cpp:11[m[K:
+[3.335s] [01m[K/home/gentleshaz/ros2_ws/l4/src/control_selector/src/wall_control.h:[m[K In constructor ‘[01m[KWallControl::WallControl(double, double, double, double, double, double)[m[K’:
+[3.335s] [01m[K/home/gentleshaz/ros2_ws/l4/src/control_selector/src/wall_control.h:13:12:[m[K [01;35m[Kwarning: [m[K‘[01m[KWallControl::task_vel[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+[3.335s]    13 |     double [01;35m[Ktask_vel[m[K;
+[3.335s]       |            [01;35m[K^~~~~~~~[m[K
+[3.336s] [01m[K/home/gentleshaz/ros2_ws/l4/src/control_selector/src/wall_control.h:10:12:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kdouble WallControl::min_range_obstacle[m[K’ [[01;35m[K-Wreorder[m[K]
+[3.336s]    10 |     double [01;35m[Kmin_range_obstacle[m[K;
+[3.336s]       |            [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[3.336s] In file included from [01m[K/home/gentleshaz/ros2_ws/l4/src/control_selector/src/control_selector_node.cpp:11[m[K:
+[3.336s] [01m[K/home/gentleshaz/ros2_ws/l4/src/control_selector/src/wall_control.h:39:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+[3.336s]    39 |     [01;35m[KWallControl[m[K(double range = 1.0, double task_vel = 1, double min_range_obstacle = 0.5, double prop_factor = 5.0, double int_factor = 0.001, double diff_factor = 14):
+[3.336s]       |     [01;35m[K^~~~~~~~~~~[m[K
+[9.771s] [100%] [32m[1mLinking CXX executable control_selector_node[0m
+[10.184s] [100%] Built target control_selector_node
+[10.196s] Invoked command in '/home/gentleshaz/ros2_ws/l4/build/control_selector' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/gentleshaz/ros2_ws/l4/build/control_selector -- -j4 -l4
+[10.199s] Invoking command in '/home/gentleshaz/ros2_ws/l4/build/control_selector': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/gentleshaz/ros2_ws/l4/build/control_selector
+[10.207s] -- Install configuration: ""
+[10.207s] -- Installing: /home/gentleshaz/ros2_ws/l4/install/control_selector/lib/control_selector/control_selector_node
+[10.212s] -- Set runtime path of "/home/gentleshaz/ros2_ws/l4/install/control_selector/lib/control_selector/control_selector_node" to ""
+[10.212s] -- Installing: /home/gentleshaz/ros2_ws/l4/install/control_selector/share/control_selector/launch
+[10.212s] -- Installing: /home/gentleshaz/ros2_ws/l4/install/control_selector/share/control_selector/launch/selector.launch.xml
+[10.212s] -- Installing: /home/gentleshaz/ros2_ws/l4/install/control_selector/share/ament_index/resource_index/package_run_dependencies/control_selector
+[10.212s] -- Installing: /home/gentleshaz/ros2_ws/l4/install/control_selector/share/ament_index/resource_index/parent_prefix_path/control_selector
+[10.213s] -- Installing: /home/gentleshaz/ros2_ws/l4/install/control_selector/share/control_selector/environment/ament_prefix_path.sh
+[10.213s] -- Installing: /home/gentleshaz/ros2_ws/l4/install/control_selector/share/control_selector/environment/ament_prefix_path.dsv
+[10.213s] -- Installing: /home/gentleshaz/ros2_ws/l4/install/control_selector/share/control_selector/environment/path.sh
+[10.213s] -- Installing: /home/gentleshaz/ros2_ws/l4/install/control_selector/share/control_selector/environment/path.dsv
+[10.213s] -- Installing: /home/gentleshaz/ros2_ws/l4/install/control_selector/share/control_selector/local_setup.bash
+[10.213s] -- Installing: /home/gentleshaz/ros2_ws/l4/install/control_selector/share/control_selector/local_setup.sh
+[10.214s] -- Installing: /home/gentleshaz/ros2_ws/l4/install/control_selector/share/control_selector/local_setup.zsh
+[10.214s] -- Installing: /home/gentleshaz/ros2_ws/l4/install/control_selector/share/control_selector/local_setup.dsv
+[10.214s] -- Installing: /home/gentleshaz/ros2_ws/l4/install/control_selector/share/control_selector/package.dsv
+[10.214s] -- Installing: /home/gentleshaz/ros2_ws/l4/install/control_selector/share/ament_index/resource_index/packages/control_selector
+[10.214s] -- Installing: /home/gentleshaz/ros2_ws/l4/install/control_selector/share/control_selector/cmake/control_selectorConfig.cmake
+[10.215s] -- Installing: /home/gentleshaz/ros2_ws/l4/install/control_selector/share/control_selector/cmake/control_selectorConfig-version.cmake
+[10.215s] -- Installing: /home/gentleshaz/ros2_ws/l4/install/control_selector/share/control_selector/package.xml
+[10.217s] Invoked command in '/home/gentleshaz/ros2_ws/l4/build/control_selector' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/gentleshaz/ros2_ws/l4/build/control_selector
